@@ -1,0 +1,133 @@
+.header {
+    &-phone {
+        color: #444444;
+        font-size: 20px;
+
+        a {
+            color: #444444;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    }
+}
+
+.banner {
+    padding-top: 20px;
+    margin-bottom: 100px;
+
+    &-text {
+
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &-nav {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+
+        li {
+        	padding: 0;
+        	display: flex;
+        	align-items: center;
+        	margin-bottom: 15px;
+
+        	&:after {
+        		display: none;
+        	}
+
+        	span {
+        		margin-right: 20px;
+        		min-width: 24px;
+        		text-align: center;
+        	}
+
+            a {
+            	text-decoration: none;
+            }
+
+            &:hover {
+            	a {
+            		text-decoration: underline;
+            	}
+
+            	span {
+            		color: #0C7492;
+            	}
+            }
+        }
+
+
+    }
+}
+
+.panorama {
+    margin-bottom: 100px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.col-4 {
+    flex: 0 0 31%;
+    max-width: 31%;
+}
+
+.col-5 {
+    flex: 0 0 37%;
+    max-width: 37%;
+}
+
+.idea {
+    &-text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    margin-bottom: 100px;
+}
+
+.video {
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.infrastructure {
+    background-image: url('../images/tree.png');
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-bottom: 100px;
+
+    &-img {
+    	flex: 0 0 60%;
+    	max-width: 60%;
+
+    	img {
+    		width: 100%;
+    	}
+    }
+
+    &-text {
+    	padding-left: 60px;
+    	flex: 0 0 40%;
+    	max-width: 40%;
+    }
+}
+
+.margin {
+	margin-top: 80px;
+}
+
+.section-img {
+	margin-bottom: 100px;
+
+	img {
+		width: 100%;
+	}
+}
