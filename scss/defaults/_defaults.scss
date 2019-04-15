@@ -7,13 +7,27 @@
     justify-content: space-between;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 .container {
     max-width: 1400px;
     margin: 0 auto;
+
+    @media screen and (max-width: 1500px) {
+        max-width: 1200px;
+    }
+
+    @media screen and (max-width: 1400px) {
+        max-width: 1100px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        padding: 0 20px;
+    }
 
     &-big {
         max-width: 1800px;
@@ -31,6 +45,11 @@
 body {
     font: normal 16px / 1.4 'DIN Pro';
     color: #000;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 320px;
 }
 
 .btn {
@@ -51,8 +70,34 @@ body {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     cursor: pointer;
 
+    @media screen and (max-width: 991px) {
+        font-size: 14px;
+    }
+
     &:focus {
         outline: none;
+    }
+}
+
+.btn-callback {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #0C7492;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+        background-color: #fff;
+        border: 1px solid #0C7492;
+        color: #0C7492;
     }
 }
 
@@ -60,6 +105,17 @@ body {
     color: #fff;
     background-color: #000000;
     border-color: #343a40;
+
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000;
+    }
 }
 
 img {
@@ -89,6 +145,11 @@ ul {
         font-size: 20px;
         line-height: 30px;
 
+        @media screen and (max-width: 991px) {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
         &:after {
             content: '';
             position: absolute;
@@ -98,6 +159,10 @@ ul {
             width: 8px;
             background-color: #85B2CA;
             border-radius: 8px;
+
+            @media screen and (max-width: 767px) {
+                top: 7px;
+            }
         }
     }
 }
