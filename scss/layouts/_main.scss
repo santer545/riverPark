@@ -1246,7 +1246,7 @@ Build date: 2018-12-12 00:07:25
 }
 
 .big-img {
-    overflow-y: auto;
+    overflow: auto;
 
     img {
         @media screen and (max-width: 991px) {
