@@ -123,7 +123,7 @@
                             <li><span class="icon-compass-icon"></span><a href="#">Интерактивная карта</a></li>
                             <li><span class="icon-link-icon"></span><a href="#">Инфраструктура поселка</a></li>
                         </ul>
-                        <button class="btn btn-primary" type="button">Обратная связь</button>
+                        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#js-contacts">Обратная связь</button>
                     </div>
                     <div class="banner-img">
                         <img src="images/screen-1.jpg" alt="">
@@ -138,7 +138,7 @@
                     <div class="idea-img">
                         <img src="images/screen-3.jpg" alt="">
                     </div>
-                    <div class="idea-text col-5" >
+                    <div class="idea-text col-5">
                         <div class="heading-h1 heading-h1__inverse" data-aos-once="true" data-aos="fade-left" data-duration="900">Идея посёлка</div>
                         <p data-aos="fade-left" data-aos-delay="50" data-aos-once="true" data-duration="500">Жилой комплекс оснащен новейшими технологиями безопасности и развитой инфраструктурой, окружен живописными лесами и водохранилищем; дома поселка находятся на территории нетронутой природы и кристально чистого воздуха, рядом - зона отдыха, собственный пляж и спортивные площадки.</p>
                         <p data-aos="fade-left" data-aos-delay="100" data-duration="500" data-aos-once="true">Престижное направление, максимальная близость к городу и расположение в одном из самых красивых и экологически чистых мест пригорода - являются отличительными чертами жилого комплекса.</p>
@@ -153,7 +153,806 @@
                     <div class="filter-wrapper">
                         <input type="text" class="js-range-slider" name="my_range" value="" />
                     </div>
+                    <div class="info-window">
+                        <div class="info-top">
+                            <div class="info-status">В продаже</div>
+                        </div>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-labe">Площадь</div>
+                                <div class="info-value">800 м<sup>2</sup></div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-labe">данные об участке</div>
+                                <div class="info-value">свет, вода, канализация</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-labe">Стоимость</div>
+                                <div class="info-value">$12 000</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <section class="big-img map-svg">
+                    <img src="images/Top_View_03.jpg" alt="">
+                    <svg viewBox="3 3 2956 4394.6665">
+                        <a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="75" data-id="2" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 851.02392,1366.663 235.09888,-99.0489 -41.555,-96.772 -239.08362,100.7567 z" data-coordinate="m 851.02392,1366.663 235.09888,-99.0489 -41.555,-96.772 -239.08362,100.7567 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="76" data-id="3" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 805.48418,1271.5988 -43.832,-93.9257 242.49912,-101.8952 40.4165,95.0642 z" data-coordinate="m 805.48418,1271.5988 -43.832,-93.9257 242.49912,-101.8952 40.4165,95.0642 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="77" data-id="4" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 761.65218,1177.6731 -45.53974,-94.495 248.19159,-104.74138 39.84727,97.34118 z" data-coordinate="m 761.65218,1177.6731 -45.53974,-94.495 248.19159,-104.74138 39.84727,97.34118 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="78" data-id="5" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 716.11244,1083.1781 -43.26276,-92.7872 251.60708,-105.31065 39.84727,93.35647 z" data-coordinate="m 716.11244,1083.1781 -43.26276,-92.7872 251.60708,-105.31065 39.84727,93.35647 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="79" data-id="6" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 628.44844,896.46518 882.90174,788.87754 924.45676,885.08025 672.84968,990.3909 Z" data-coordinate="M 628.44844,896.46518 882.90174,788.87754 924.45676,885.08025 672.84968,990.3909 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="80" data-id="7" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 628.44844,896.46518 -9.10795,-15.93891 C 720.13521,812.86454 690.24694,705.31385 828.25405,657.95078 l 54.64769,130.92676 z" data-coordinate="m 628.44844,896.46518 -9.10795,-15.93891 C 720.13521,812.86454 690.24694,705.31385 828.25405,657.95078 l 54.64769,130.92676 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="82" data-id="8" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 959.75006,601.02611 -83.11003,35.2933 51.80145,121.24956 81.97152,-33.58556 z" data-coordinate="m 959.75006,601.02611 -83.11003,35.2933 51.80145,121.24956 81.97152,-33.58556 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="81" data-id="9" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 928.44148,757.56897 81.97152,-33.58556 55.7862,131.496 -74.57132,29.03159 c -6.86795,1.16315 -7.55299,-1.79564 -10.24645,-3.41548 z" data-coordinate="m 928.44148,757.56897 81.97152,-33.58556 55.7862,131.496 -74.57132,29.03159 c -6.86795,1.16315 -7.55299,-1.79564 -10.24645,-3.41548 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="83" data-id="10" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1066.1992,855.47941 84.2485,-37.00104 -97.9104,-229.97569 c -39.7406,1.46323 -72.73483,5.00229 -92.78724,12.52343 l 106.44914,254.4533" data-coordinate="m 1066.1992,855.47941 84.2485,-37.00104 -97.9104,-229.97569 c -39.7406,1.46323 -72.73483,5.00229 -92.78724,12.52343 l 106.44914,254.4533" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="84" data-id="11" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1052.5373,588.50268 105.3106,-2.84624 83.6793,194.6824 -91.0795,38.13953 z" data-coordinate="m 1052.5373,588.50268 105.3106,-2.84624 83.6793,194.6824 -91.0795,38.13953 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="85" data-id="12" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1241.5272,780.33884 101.3259,-42.69351 -71.1559,-159.3891 c -24.2992,7.12107 -76.0698,4.56265 -113.8493,7.40021 z" data-coordinate="m 1241.5272,780.33884 101.3259,-42.69351 -71.1559,-159.3891 c -24.2992,7.12107 -76.0698,4.56265 -113.8493,7.40021 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="86" data-id="13" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1271.6972,578.25623 71.1559,159.3891 c 30.1738,-11.77466 63.6656,-13.59535 95.7471,-19.64681 l -22.541,-198.84402 c -45.8338,23.13086 -90.3012,48.31133 -144.362,59.10173 z" data-coordinate="m 1271.6972,578.25623 71.1559,159.3891 c 30.1738,-11.77466 63.6656,-13.59535 95.7471,-19.64681 l -22.541,-198.84402 c -45.8338,23.13086 -90.3012,48.31133 -144.362,59.10173 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="87" data-id="14" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1416.0592,519.1545 22.541,198.84402 104.6548,-13.68562 -22.541,-227.0203 c -36.4385,6.18638 -70.2337,25.58898 -104.6548,41.8619 z" data-coordinate="m 1416.0592,519.1545 22.541,198.84402 104.6548,-13.68562 -22.541,-227.0203 c -36.4385,6.18638 -70.2337,25.58898 -104.6548,41.8619 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="88" data-id="15" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 1543.255,704.3129 1648.7148,689.82224 1623.7586,463.60698 1520.714,477.2926 Z" data-coordinate="M 1543.255,704.3129 1648.7148,689.82224 1623.7586,463.60698 1520.714,477.2926 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="89" data-id="16" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1623.7586,463.60698 96.3354,-8.19741 1.3512,21.50757 8.9265,-0.71706 21.2776,201.41656 -105.4597,12.88058 z" data-coordinate="m 1623.7586,463.60698 96.3354,-8.19741 1.3512,21.50757 8.9265,-0.71706 21.2776,201.41656 -105.4597,12.88058 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="90" data-id="17" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1751.6493,677.61664 174.1192,-23.86058 -81.2088,-192.08144 -114.188,14.52546 z" data-coordinate="m 1751.6493,677.61664 174.1192,-23.86058 -81.2088,-192.08144 -114.188,14.52546 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="91" data-id="18" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1881.3703,456.36165 81.3087,194.0138 75.6734,-10.46547 -21.736,-202.8692 z" data-coordinate="m 1881.3703,456.36165 81.3087,194.0138 75.6734,-10.46547 -21.736,-202.8692 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="92" data-id="19" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2116.441,423.35516 -99.8246,13.68562 21.736,202.8692 102.2397,-12.88059 z" data-coordinate="m 2116.441,423.35516 -99.8246,13.68562 21.736,202.8692 102.2397,-12.88059 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="93" data-id="20" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2116.441,423.35516 100.6295,-13.68562 20.931,202.8692 -97.4094,14.49065 z" data-coordinate="m 2116.441,423.35516 100.6295,-13.68562 20.931,202.8692 -97.4094,14.49065 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="94" data-id="21" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2238.0015,612.53874 106.726,-13.22037 -23.9084,-204.92884 -103.7486,15.28001 z" data-coordinate="m 2238.0015,612.53874 106.726,-13.22037 -23.9084,-204.92884 -103.7486,15.28001 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="95" data-id="22" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2435.2377,587.36418 -3.4155,-208.34431 -111.0031,15.36966 23.9084,204.92884 z" data-coordinate="m 2435.2377,587.36418 -3.4155,-208.34431 -111.0031,15.36966 23.9084,204.92884 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="96" data-id="23" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2529.7327,591.91816 14.2311,-207.77507 c -37.3805,-1.70774 -88.8618,-7.44425 -112.1416,-5.12322 l 3.4155,208.34431 27.8931,-0.56924 z" data-coordinate="m 2529.7327,591.91816 14.2311,-207.77507 c -37.3805,-1.70774 -88.8618,-7.44425 -112.1416,-5.12322 l 3.4155,208.34431 27.8931,-0.56924 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="97" data-id="24" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2543.9638,384.14309 101.3259,7.96945 -13.6619,208.34432 -101.8951,-8.5387 z" data-coordinate="m 2543.9638,384.14309 101.3259,7.96945 -13.6619,208.34432 -101.8951,-8.5387 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="98" data-id="25" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2645.2897,392.11254 104.1722,8.5387 -14.2312,207.77507 -103.6029,-7.96945 z" data-coordinate="m 2645.2897,392.11254 104.1722,8.5387 -14.2312,207.77507 -103.6029,-7.96945 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="99" data-id="26" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2735.2307,608.42631 101.8952,7.40021 13.6619,-208.91356 -101.3259,-6.26172 z" data-coordinate="m 2735.2307,608.42631 101.8952,7.40021 13.6619,-208.91356 -101.3259,-6.26172 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="100" data-id="27" data-size="20" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2850.7878,406.91296 101.8952,7.40021 -13.0927,210.05205 -102.4644,-8.5387 z" data-coordinate="m 2850.7878,406.91296 101.8952,7.40021 -13.0927,210.05205 -102.4644,-8.5387 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="101" data-id="28" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2952.683,414.31317 103.0337,7.96945 -13.0927,210.62131 -103.0337,-8.53871 z" data-coordinate="m 2952.683,414.31317 103.0337,7.96945 -13.0927,210.62131 -103.0337,-8.53871 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="102" data-id="29" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3055.7167,422.28262 105.8799,6.83096 -12.5235,212.32905 -106.4491,-8.5387 z" data-coordinate="m 3055.7167,422.28262 105.8799,6.83096 -12.5235,212.32905 -106.4491,-8.5387 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="103" data-id="30" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3161.5966,429.11358 102.4644,7.96946 -13.0927,213.46754 -101.8952,-9.10795 z" data-coordinate="m 3161.5966,429.11358 102.4644,7.96946 -13.0927,213.46754 -101.8952,-9.10795 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="104" data-id="31" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3395.3263,444.34991 -58.4142,211.91924 -88.9647,-8.55821 12.5405,-212.17278 z" data-coordinate="m 3395.3263,444.34991 -58.4142,211.91924 -88.9647,-8.55821 12.5405,-212.17278 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="105" data-id="32" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3365.9562,665.35099 60.9665,-207.25329 121.19,74.0522 -111.7592,177.75301 z" data-coordinate="m 3365.9562,665.35099 60.9665,-207.25329 121.19,74.0522 -111.7592,177.75301 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="106" data-id="33" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 3522.4509,763.71109 3632.9063,585.31467 3548.1127,532.1499 3436.3535,709.90291 Z" data-coordinate="M 3522.4509,763.71109 3632.9063,585.31467 3548.1127,532.1499 3436.3535,709.90291 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="107" data-id="34" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3521.787,760.36838 88.8506,58.18276 110.4194,-178.62585 -88.1507,-54.61062 z" data-coordinate="m 3521.787,760.36838 88.8506,58.18276 110.4194,-178.62585 -88.1507,-54.61062 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="108" data-id="35" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 3699.5348,873.69531 3807.4497,693.33518 3721.057,639.92529 3610.6376,818.55114 Z" data-coordinate="M 3699.5348,873.69531 3807.4497,693.33518 3721.057,639.92529 3610.6376,818.55114 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="109" data-id="36" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3807.4497,693.33518 88.4977,55.72756 -108.7486,179.84951 -87.664,-55.21694 z" data-coordinate="m 3807.4497,693.33518 88.4977,55.72756 -108.7486,179.84951 -87.664,-55.21694 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="72" data-id="37" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 999.59733,1679.7487 42.12427,91.0795 218.5908,-91.0795 -39.8473,-94.4949 z" data-coordinate="m 999.59733,1679.7487 42.12427,91.0795 218.5908,-91.0795 -39.8473,-94.4949 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="70" data-id="38" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1086.7993,1866.7856 44.294,93.6018 210.6213,-89.3717 -41.5806,-96.8093 z" data-coordinate="m 1086.7993,1866.7856 44.294,93.6018 210.6213,-89.3717 -41.5806,-96.8093 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="71" data-id="39" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1041.7216,1770.8282 45.0777,95.9574 213.3347,-92.5792 -39.8216,-94.4577 z" data-coordinate="m 1041.7216,1770.8282 45.0777,95.9574 213.3347,-92.5792 -39.8216,-94.4577 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="110" data-id="40" data-size="45" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3898.7711,748.46102 -137.1884,225.42172 86.5255,54.64766 396.1957,-64.8941 z" data-coordinate="m 3898.7711,748.46102 -137.1884,225.42172 86.5255,54.64766 396.1957,-64.8941 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="41" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3866.3241,1312.0153 -68.3096,-275.5154 50.0937,-7.9695 96.7719,-14.8004 77.4176,51.2322 z" data-coordinate="m 3866.3241,1312.0153 -68.3096,-275.5154 50.0937,-7.9695 96.7719,-14.8004 77.4176,51.2322 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="42" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3991.5584,1112.779 47.8167,29.6008 -94.495,158.2506 -75.5149,20.2342 -3.0411,-8.8493 z" data-coordinate="m 3991.5584,1112.779 47.8167,29.6008 -94.495,158.2506 -75.5149,20.2342 -3.0411,-8.8493 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="111" data-id="43" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 4329.6909,1018.284 4222.6725,1192.4735 3944.8801,1013.73 4244.3039,963.6363 Z" data-coordinate="M 4329.6909,1018.284 4222.6725,1192.4735 3944.8801,1013.73 4244.3039,963.6363 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="112" data-id="44" data-size="10" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4222.6725,1192.4735 77.4176,48.9552 109.2954,-171.9125 -79.6946,-51.2322 z" data-coordinate="m 4222.6725,1192.4735 77.4176,48.9552 109.2954,-171.9125 -79.6946,-51.2322 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="113" data-id="45" data-size="14" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4300.0901,1241.4287 78.5561,48.9552 108.1569,-171.9125 -77.4176,-48.9552 z" data-coordinate="m 4300.0901,1241.4287 78.5561,48.9552 108.1569,-171.9125 -77.4176,-48.9552 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="114" data-id="46" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4378.6462,1290.3839 81.256,47.4927 105.4598,-169.8627 -78.5589,-49.5425 z" data-coordinate="m 4378.6462,1290.3839 81.256,47.4927 105.4598,-169.8627 -78.5589,-49.5425 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="115" data-id="47" data-size="14" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4459.9022,1337.8766 9.8234,0.8933 195.4471,-49.4899 c 1.2649,-0.3162 10.07,-4.57 14.3632,-8.6768 1.2402,-1.1863 5.4212,-6.7724 6.6641,-13.5643 1.1716,-6.4021 -0.2664,-13.9274 -0.943,-14.2657 l -3.7918,-8.3029 -7.2132,-6.4916 -108.89,-69.9648 z" data-coordinate="m 4459.9022,1337.8766 9.8234,0.8933 195.4471,-49.4899 c 1.2649,-0.3162 10.07,-4.57 14.3632,-8.6768 1.2402,-1.1863 5.4212,-6.7724 6.6641,-13.5643 1.1716,-6.4021 -0.2664,-13.9274 -0.943,-14.2657 l -3.7918,-8.3029 -7.2132,-6.4916 -108.89,-69.9648 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="48" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4039.3751,1142.3798 159.9583,96.7719 -254.4533,61.4787 z" data-coordinate="m 4039.3751,1142.3798 159.9583,96.7719 -254.4533,61.4787 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="" data-id="49" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4166.8864,1246.5519 40.4165,159.3891 180.4512,-46.6782 -188.4207,-120.1111 z" data-coordinate="m 4166.8864,1246.5519 40.4165,159.3891 180.4512,-46.6782 -188.4207,-120.1111 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="50" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4107.1155,1430.9879 100.1874,-25.0469 -40.4165,-159.3891 -100.1875,24.4777 z" data-coordinate="m 4107.1155,1430.9879 100.1874,-25.0469 -40.4165,-159.3891 -100.1875,24.4777 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="51" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3966.5115,1295.5072 39.8473,161.0968 100.7567,-25.6161 -40.4166,-159.9583 z" data-coordinate="m 3966.5115,1295.5072 39.8473,161.0968 100.7567,-25.6161 -40.4166,-159.9583 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="52" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3869.3652,1320.8646 39.0831,160.7863 97.9105,-25.0469 -39.8473,-161.0968 z" data-coordinate="m 3869.3652,1320.8646 39.0831,160.7863 97.9105,-25.0469 -39.8473,-161.0968 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="53" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3869.3652,1320.8646 -102.5994,22.6473 40.2518,163.4224 101.4307,-25.2834 z" data-coordinate="m 3869.3652,1320.8646 -102.5994,22.6473 40.2518,163.4224 101.4307,-25.2834 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="54" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3766.7658,1343.5119 -101.8371,24.1511 63.5979,146.9191 4.8302,5.2328 4.0252,2.0126 4.8302,0.4025 64.8054,-15.2957 z" data-coordinate="m 3766.7658,1343.5119 -101.8371,24.1511 63.5979,146.9191 4.8302,5.2328 4.0252,2.0126 4.8302,0.4025 64.8054,-15.2957 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="55" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3622.6643,1269.4485 42.2644,98.2145 204.4365,-46.7984 -25.3159,-101.7309 z" data-coordinate="m 3622.6643,1269.4485 42.2644,98.2145 204.4365,-46.7984 -25.3159,-101.7309 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="56" data-size="40" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3543.5612,1080.3319 79.1031,189.1166 221.385,-50.3148 -46.0348,-182.6338 z" data-coordinate="m 3543.5612,1080.3319 79.1031,189.1166 221.385,-50.3148 -46.0348,-182.6338 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="57" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3510.5448,1004.0528 80.8331,-134.91146 256.7303,159.38906 -304.547,51.8015 z" data-coordinate="m 3510.5448,1004.0528 80.8331,-134.91146 256.7303,159.38906 -304.547,51.8015 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="58" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="M 3510.5448,1004.0528 3400.6802,748.46102 3591.3779,869.14134 Z" data-coordinate="M 3510.5448,1004.0528 3400.6802,748.46102 3591.3779,869.14134 Z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="4" data-id="59" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4680.5565,1337.0688 101.0697,162.7752 173.938,-110.8973 -145.2325,-85.8714 z" data-coordinate="m 4680.5565,1337.0688 101.0697,162.7752 173.938,-110.8973 -145.2325,-85.8714 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="3" data-id="60" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4781.6262,1499.844 64.7711,100.4776 223.7226,-139.2744 -114.5557,-72.1005 z" data-coordinate="m 4781.6262,1499.844 64.7711,100.4776 223.7226,-139.2744 -114.5557,-72.1005 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="2" data-id="61" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4846.3973,1600.3216 54.279,87.5428 262.1374,-170.052 -92.6938,-56.7652 z" data-coordinate="m 4846.3973,1600.3216 54.279,87.5428 262.1374,-170.052 -92.6938,-56.7652 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="1" data-id="62" data-size="12" stroke="white" stroke-width="3" data-electricity="10" stroke-opacity="0" data-price="" d="m 4882.5464,1758.9107 403.2182,-155.9507 -122.9509,-85.1476 -306.8335,200.8465 z" data-coordinate="m 4882.5464,1758.9107 403.2182,-155.9507 -122.9509,-85.1476 -306.8335,200.8465 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="5" data-id="63" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4813.3133,1649.4258 -140.8814,90.164 49.9122,79.6987 160.2023,-60.3778 z" data-coordinate="m 4813.3133,1649.4258 -140.8814,90.164 49.9122,79.6987 160.2023,-60.3778 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="6" data-id="64" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4611.2491,1643.7905 61.1828,95.7993 140.8814,-90.164 -60.3778,-95.7994 z" data-coordinate="m 4611.2491,1643.7905 61.1828,95.7993 140.8814,-90.164 -60.3778,-95.7994 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="9" data-id="65" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4651.5009,1708.1934 70.8432,111.0951 -208.5044,77.2835 -46.6921,-71.6483 z" data-coordinate="m 4651.5009,1708.1934 70.8432,111.0951 -208.5044,77.2835 -46.6921,-71.6483 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="10" data-id="66" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4447.8267,1696.1179 140.0763,-90.1641 63.5979,102.2396 -139.2713,89.3591 z" data-coordinate="m 4447.8267,1696.1179 140.0763,-90.1641 63.5979,102.2396 -139.2713,89.3591 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="11" data-id="67" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4384.2288,1596.2933 140.0764,-88.554 63.5978,98.2145 -140.0763,90.1641 z" data-coordinate="m 4384.2288,1596.2933 140.0764,-88.554 63.5978,98.2145 -140.0763,90.1641 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="7" data-id="68" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4690.9477,1456.217 61.9878,97.4094 -141.6864,90.1641 -61.9878,-96.6044 z" data-coordinate="m 4690.9477,1456.217 61.9878,97.4094 -141.6864,90.1641 -61.9878,-96.6044 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="12" data-id="69" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4384.2288,1596.2933 -99.8245,-154.567 169.0576,-43.4719 70.8433,109.4849 z" data-coordinate="m 4384.2288,1596.2933 -99.8245,-154.567 169.0576,-43.4719 70.8433,109.4849 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="8" data-id="70" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4453.4619,1398.2544 95.7994,148.9317 141.6864,-90.9691 -60.7802,-92.9817 -3.2202,-2.8177 -3.6227,-2.4151 -3.2201,-0.4025 h -5.2327 z" data-coordinate="m 4453.4619,1398.2544 95.7994,148.9317 141.6864,-90.9691 -60.7802,-92.9817 -3.2202,-2.8177 -3.6227,-2.4151 -3.2201,-0.4025 h -5.2327 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="13" data-id="71" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4296.4798,1865.1755 57.1576,90.9692 160.2023,-59.5727 -76.4785,-119.9505 z" data-coordinate="m 4296.4798,1865.1755 57.1576,90.9692 160.2023,-59.5727 -76.4785,-119.9505 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="14" data-id="72" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4229.6618,1760.5208 66.818,104.6547 140.8814,-88.554 -66.818,-105.4598 z" data-coordinate="m 4229.6618,1760.5208 66.818,104.6547 140.8814,-88.554 -66.818,-105.4598 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="20" data-id="73" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4229.6618,1760.5208 -138.4663,89.359 61.9878,102.2397 136.8562,-92.5792 z" data-coordinate="m 4229.6618,1760.5208 -138.4663,89.359 61.9878,102.2397 136.8562,-92.5792 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="21" data-id="74" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4290.0395,1859.5403 -181.1332,119.1454 36.2267,57.9626 208.5044,-80.5036 z" data-coordinate="m 4290.0395,1859.5403 -181.1332,119.1454 36.2267,57.9626 208.5044,-80.5036 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="19" data-id="75" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4174.1143,1672.7718 55.5475,87.749 -138.4663,89.359 -55.5475,-86.9439 z" data-coordinate="m 4174.1143,1672.7718 55.5475,87.749 -138.4663,89.359 -55.5475,-86.9439 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="18" data-id="76" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4035.648,1762.9359 -54.7425,-86.9439 137.6613,-87.749 55.5475,84.5288 z" data-coordinate="m 4035.648,1762.9359 -54.7425,-86.9439 137.6613,-87.749 55.5475,84.5288 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="17" data-id="77" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3980.9055,1675.992 -82.9187,-136.8562 163.4224,-43.472 57.1576,92.5792 z" data-coordinate="m 3980.9055,1675.992 -82.9187,-136.8562 163.4224,-43.472 57.1576,92.5792 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="15" data-id="78" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4164.4538,1654.256 136.0512,-86.944 70.0382,103.8497 -140.8814,89.3591 z" data-coordinate="m 4164.4538,1654.256 136.0512,-86.944 70.0382,103.8497 -140.8814,89.3591 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="16" data-id="79" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 4300.505,1567.312 -66.818,-104.6547 -5.6353,-3.2202 -4.0252,-0.805 h -5.6352 l -156.9821,37.0317 103.0446,158.5922 z" data-coordinate="m 4300.505,1567.312 -66.818,-104.6547 -5.6353,-3.2202 -4.0252,-0.805 h -5.6352 l -156.9821,37.0317 103.0446,158.5922 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="28" data-id="80" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3605.0398,1801.5675 65.4634,-38.1395 -74.0021,-116.6956 -84.2485,44.9705 c 31.4903,36.2848 68.037,69.5358 92.7872,109.8646 z" data-coordinate="m 3605.0398,1801.5675 65.4634,-38.1395 -74.0021,-116.6956 -84.2485,44.9705 c 31.4903,36.2848 68.037,69.5358 92.7872,109.8646 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="27" data-id="81" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3670.5032,1763.428 -74.0021,-116.6956 94.495,-46.109 68.8788,109.8647 z" data-coordinate="m 3670.5032,1763.428 -74.0021,-116.6956 94.495,-46.109 68.8788,109.8647 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="26" data-id="82" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3905.6021,1652.4249 -57.4939,-88.8025 -5.1232,-5.6925 -4.554,-2.277 h -7.4002 l -93.3565,22.2007 -46.6782,22.7698 84.2485,133.2038 z" data-coordinate="m 3905.6021,1652.4249 -57.4939,-88.8025 -5.1232,-5.6925 -4.554,-2.277 h -7.4002 l -93.3565,22.2007 -46.6782,22.7698 84.2485,133.2038 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="25" data-id="83" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3775.2446,1733.8272 130.3575,-81.4023 58.6324,95.6335 -129.7882,80.2637 z" data-coordinate="m 3775.2446,1733.8272 130.3575,-81.4023 58.6324,95.6335 -129.7882,80.2637 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="29" data-id="84" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3759.8749,1710.4881 -154.8351,91.0794 59.7709,93.9258 153.6966,-92.7873 z" data-coordinate="m 3759.8749,1710.4881 -154.8351,91.0794 59.7709,93.9258 153.6966,-92.7873 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="24" data-id="85" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3834.4463,1828.3221 129.7882,-80.2637 58.6324,93.3564 -128.6497,78.5561 z" data-coordinate="m 3834.4463,1828.3221 129.7882,-80.2637 58.6324,93.3564 -128.6497,78.5561 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="30" data-id="86" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3878.2783,1897.201 -59.771,-94.495 -153.6966,92.7873 59.7709,93.9257 z" data-coordinate="m 3878.2783,1897.201 -59.771,-94.495 -153.6966,92.7873 59.7709,93.9257 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="31" data-id="87" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3938.6184,1989.9882 -155.4044,90.5103 -58.6324,-91.0795 153.6967,-92.218 z" data-coordinate="m 3938.6184,1989.9882 -155.4044,90.5103 -58.6324,-91.0795 153.6967,-92.218 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="23" data-id="88" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3894.2172,1919.9709 60.3401,94.4949 126.9421,-79.1253 -58.6325,-93.9257 z" data-coordinate="m 3894.2172,1919.9709 60.3401,94.4949 126.9421,-79.1253 -58.6325,-93.9257 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="32" data-id="89" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3829.8923,2153.3621 -46.6783,-72.8636 155.4044,-90.5103 64.3249,100.1875 z" data-coordinate="m 3829.8923,2153.3621 -46.6783,-72.8636 155.4044,-90.5103 64.3249,100.1875 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="22" data-id="90" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3954.5573,2014.4658 126.9421,-79.1253 63.6336,101.3078 -142.1897,53.5274 z" data-coordinate="m 3954.5573,2014.4658 126.9421,-79.1253 63.6336,101.3078 -142.1897,53.5274 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="40" data-id="91" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3176.9662,2002.5117 -66.0326,-106.4492 -1.1385,-5.6925 2.277,-2.8462 70.5866,-35.8625 66.6019,105.3106 z" data-coordinate="m 3176.9662,2002.5117 -66.0326,-106.4492 -1.1385,-5.6925 2.277,-2.8462 70.5866,-35.8625 66.6019,105.3106 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="39" data-id="92" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3249.2606,1956.9719 -66.6019,-105.3106 99.0489,-48.386 59.7709,96.2027 z" data-coordinate="m 3249.2606,1956.9719 -66.6019,-105.3106 99.0489,-48.386 59.7709,96.2027 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="38" data-id="93" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3357.4175,1922.2479 -75.7099,-118.9726 83.1101,-40.4165 70.0173,111.5723 z" data-coordinate="m 3357.4175,1922.2479 -75.7099,-118.9726 83.1101,-40.4165 70.0173,111.5723 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="37" data-id="94" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3544.6996,1806.6908 -75.7098,-80.2638 -5.1232,-5.1232 -5.6925,-1.1385 h -3.9847 l -3.4155,1.1385 -85.9562,41.555 70.0173,111.5723 z" data-coordinate="m 3544.6996,1806.6908 -75.7098,-80.2638 -5.1232,-5.1232 -5.6925,-1.1385 h -3.9847 l -3.4155,1.1385 -85.9562,41.555 70.0173,111.5723 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="36" data-id="95" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3357.4175,1922.2479 187.2821,-115.5571 57.494,86.5255 -189.5592,117.2648 z" data-coordinate="m 3357.4175,1922.2479 187.2821,-115.5571 57.494,86.5255 -189.5592,117.2648 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="41" data-id="96" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3234.4602,2090.1757 -57.494,-87.664 164.5123,-103.0337 56.3555,86.5255 z" data-coordinate="m 3234.4602,2090.1757 -57.494,-87.664 164.5123,-103.0337 56.3555,86.5255 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="42" data-id="97" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3289.6771,2176.1319 -55.2169,-85.9562 163.3738,-104.1722 54.6477,86.5255 z" data-coordinate="m 3289.6771,2176.1319 -55.2169,-85.9562 163.3738,-104.1722 54.6477,86.5255 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="35" data-id="98" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3412.6344,2010.4811 189.5592,-117.2648 55.2169,88.8025 -188.4207,114.9878 z" data-coordinate="m 3412.6344,2010.4811 189.5592,-117.2648 55.2169,88.8025 -188.4207,114.9878 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="34" data-id="99" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3468.9898,2097.0066 188.4207,-114.9878 55.2169,85.387 -188.4206,115.5571 z" data-coordinate="m 3468.9898,2097.0066 188.4207,-114.9878 55.2169,85.387 -188.4206,115.5571 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="33" data-id="100" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3524.2068,2182.9629 188.4206,-115.5571 67.1712,104.7414 -211.1906,79.6945 z" data-coordinate="m 3524.2068,2182.9629 188.4206,-115.5571 67.1712,104.7414 -211.1906,79.6945 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="43" data-id="101" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3503.1446,2151.6543 -50.6629,-79.1253 -162.8046,103.6029 49.5245,79.1253 z" data-coordinate="m 3503.1446,2151.6543 -50.6629,-79.1253 -162.8046,103.6029 49.5245,79.1253 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="44" data-id="102" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3503.1446,2151.6543 -208.9135,131.496 5.6924,11.9542 179.3128,-7.4002 89.3717,-35.8626 z" data-coordinate="m 3503.1446,2151.6543 -208.9135,131.496 5.6924,11.9542 179.3128,-7.4002 89.3717,-35.8626 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="51" data-id="103" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2914.2321,2241.1276 -105.4597,-37.8367 -172.2778,-78.8936 176.3029,-87.749 z" data-coordinate="m 2914.2321,2241.1276 -105.4597,-37.8367 -172.2778,-78.8936 176.3029,-87.749 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="50" data-id="104" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2812.7975,2036.6483 101.4346,204.4793 128.9611,29.4993 -139.4265,-279.8657 z" data-coordinate="m 2812.7975,2036.6483 101.4346,204.4793 128.9611,29.4993 -139.4265,-279.8657 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="49" data-id="105" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2972.9998,1955.3396 -69.2331,35.4216 62.7928,121.5605 72.4533,-46.6921 z" data-coordinate="m 2972.9998,1955.3396 -69.2331,35.4216 62.7928,121.5605 72.4533,-46.6921 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="48" data-id="106" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3122.7366,2014.1073 -57.9626,-86.944 -3.2202,-5.6352 -4.0252,-2.4151 h -2.4151 l -4.0251,-0.8051 -4.0252,2.4152 -74.0634,34.6165 66.013,110.29 z" data-coordinate="m 3122.7366,2014.1073 -57.9626,-86.944 -3.2202,-5.6352 -4.0252,-2.4151 h -2.4151 l -4.0251,-0.8051 -4.0252,2.4152 -74.0634,34.6165 66.013,110.29 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="47" data-id="107" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3176.397,2098.7144 -53.6604,-84.6071 -156.1771,98.2144 47.0329,91.1341 z" data-coordinate="m 3176.397,2098.7144 -53.6604,-84.6071 -156.1771,98.2144 47.0329,91.1341 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="46" data-id="108" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3231.0447,2181.8244 -54.6477,-83.11 -162.8046,104.7414 29.6008,67.1711 37.5703,5.6925 z" data-coordinate="m 3231.0447,2181.8244 -54.6477,-83.11 -162.8046,104.7414 29.6008,67.1711 37.5703,5.6925 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="45" data-id="109" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3299.9235,2295.1045 -68.8788,-113.2801 -150.2812,94.495 87.664,12.5234 z" data-coordinate="m 3299.9235,2295.1045 -68.8788,-113.2801 -150.2812,94.495 87.664,12.5234 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="69" data-id="110" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1175.3533,2054.3591 -44.26,-93.9717 210.6213,-89.3717 40.5331,98.0095 z" data-coordinate="m 1175.3533,2054.3591 -44.26,-93.9717 210.6213,-89.3717 40.5331,98.0095 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="68" data-id="111" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1220.4353,2153.3786 -45.082,-99.0195 206.8944,-85.3339 43.4719,100.6296 z" data-coordinate="m 1220.4353,2153.3786 -45.082,-99.0195 206.8944,-85.3339 43.4719,100.6296 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="67" data-id="112" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1265.5174,2246.7628 -45.0821,-93.3842 205.2843,-83.7238 37.8368,94.1893 z" data-coordinate="m 1265.5174,2246.7628 -45.0821,-93.3842 205.2843,-83.7238 37.8368,94.1893 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="66" data-id="113" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1310.5994,2342.5622 -45.082,-95.7994 198.039,-82.9187 41.0568,94.9943 z" data-coordinate="m 1310.5994,2342.5622 -45.082,-95.7994 198.039,-82.9187 41.0568,94.9943 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="65" data-id="114" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1353.2664,2437.5565 -42.667,-94.9943 194.0138,-83.7238 42.667,97.4094 z" data-coordinate="m 1353.2664,2437.5565 -42.667,-94.9943 194.0138,-83.7238 42.667,97.4094 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="64" data-id="115" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1400.7635,2530.9407 -47.4971,-93.3842 194.0138,-81.3087 37.8367,96.6044 z" data-coordinate="m 1400.7635,2530.9407 -47.4971,-93.3842 194.0138,-81.3087 37.8367,96.6044 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="63" data-id="116" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1638.2493,2577.6328 -53.1324,-124.7806 -184.3534,78.0885 57.9626,123.9756 z" data-coordinate="m 1638.2493,2577.6328 -53.1324,-124.7806 -184.3534,78.0885 57.9626,123.9756 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="62" data-id="117" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1506.2233,2758.7661 179.5231,-75.6735 -47.4971,-105.4598 -179.5232,77.2835 z" data-coordinate="m 1506.2233,2758.7661 179.5231,-75.6735 -47.4971,-105.4598 -179.5232,77.2835 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="52" data-id="118" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2420.3843,2099.0903 96.3748,-47.912 -51.2163,-114.5483 -4.2052,-3.8478 -4.7922,-0.744 -5.3356,1.8309 -85.8968,36.3544 z" data-coordinate="m 2420.3843,2099.0903 96.3748,-47.912 -51.2163,-114.5483 -4.2052,-3.8478 -4.7922,-0.744 -5.3356,1.8309 -85.8968,36.3544 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="53" data-id="119" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2420.3843,2099.0903 -111.7948,58.9263 -60.0277,-138.7797 116.7512,-49.0134 z" data-coordinate="m 2420.3843,2099.0903 -111.7948,58.9263 -60.0277,-138.7797 116.7512,-49.0134 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="54" data-id="120" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2196.7948,2213.6387 -62.2306,-145.939 113.9976,-48.4628 60.0277,138.7797 z" data-coordinate="m 2196.7948,2213.6387 -62.2306,-145.939 113.9976,-48.4628 60.0277,138.7797 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="55" data-id="121" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2104.275,2259.3479 -64.4335,-151.4462 94.7227,-40.202 62.2306,145.939 z" data-coordinate="m 2104.275,2259.3479 -64.4335,-151.4462 94.7227,-40.202 62.2306,145.939 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="56" data-id="122" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2012.8566,2306.7092 -66.6363,-159.7068 93.6212,-39.1007 64.4335,151.4462 z" data-coordinate="m 2012.8566,2306.7092 -66.6363,-159.7068 93.6212,-39.1007 64.4335,151.4462 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="57" data-id="123" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1848.7441,2188.3059 70.4912,165.7646 93.6213,-47.3613 -66.6363,-159.7068 z" data-coordinate="m 1848.7441,2188.3059 70.4912,165.7646 93.6213,-47.3613 -66.6363,-159.7068 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="58" data-id="124" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1755.1228,2227.9572 73.7956,172.9239 90.3169,-46.8106 -70.4912,-165.7646 z" data-coordinate="m 1755.1228,2227.9572 73.7956,172.9239 90.3169,-46.8106 -70.4912,-165.7646 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="59" data-id="125" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1660.4002,2269.2607 94.7226,-41.3035 42.4049,98.5777 -94.7226,41.3035 z" data-coordinate="m 1660.4002,2269.2607 94.7226,-41.3035 42.4049,98.5777 -94.7226,41.3035 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="61" data-id="126" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1828.9184,2400.8811 -31.3907,-74.3462 -177.3296,73.7955 34.1442,72.6942 2.2029,1.1014 h 3.3042 l 2.2029,0.5507 1.6521,-0.5507 3.855,-1.6521 123.3598,-51.7671 z" data-coordinate="m 1828.9184,2400.8811 -31.3907,-74.3462 -177.3296,73.7955 34.1442,72.6942 2.2029,1.1014 h 3.3042 l 2.2029,0.5507 1.6521,-0.5507 3.855,-1.6521 123.3598,-51.7671 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="60" data-id="127" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1620.1981,2400.3304 -34.1442,-84.2591 -1.1014,-6.6085 1.1014,-4.9565 3.855,-3.855 70.4913,-31.3906 42.4049,98.5777 z" data-coordinate="m 1620.1981,2400.3304 -34.1442,-84.2591 -1.1014,-6.6085 1.1014,-4.9565 3.855,-3.855 70.4913,-31.3906 42.4049,98.5777 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="128" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1447.7016,1625.6085 182.5408,-77.33 -59.4441,-139.9304 -199.9007,34.1935 z" data-coordinate="m 1447.7016,1625.6085 182.5408,-77.33 -59.4441,-139.9304 -199.9007,34.1935 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="129" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1357.7463,1777.1122 -41.5583,-95.2158 131.5136,-56.2879 41.5583,96.268 z" data-coordinate="m 1357.7463,1777.1122 -41.5583,-95.2158 131.5136,-56.2879 41.5583,96.268 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="130" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1447.7016,1625.6085 133.6178,-56.2878 42.0843,95.7419 -134.1438,56.8139 z" data-coordinate="m 1447.7016,1625.6085 133.6178,-56.2878 42.0843,95.7419 -134.1438,56.8139 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="131" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1489.2599,1721.8765 134.1438,-56.8139 40.5062,96.268 -133.6178,56.2878 z" data-coordinate="m 1489.2599,1721.8765 134.1438,-56.8139 40.5062,96.268 -133.6178,56.2878 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="132" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1397.7264,1874.9583 -39.9801,-97.8461 131.5136,-55.2357 41.0322,95.7419 z" data-coordinate="m 1397.7264,1874.9583 -39.9801,-97.8461 131.5136,-55.2357 41.0322,95.7419 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="133" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1439.8108,1970.1741 -42.0844,-95.2158 132.5657,-57.3399 41.0323,96.794 z" data-coordinate="m 1439.8108,1970.1741 -42.0844,-95.2158 132.5657,-57.3399 41.0323,96.794 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="134" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1571.3244,1914.4124 -41.0323,-96.794 133.6178,-56.2878 41.0323,96.2679 z" data-coordinate="m 1571.3244,1914.4124 -41.0323,-96.794 133.6178,-56.2878 41.0323,96.2679 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="135" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1571.3244,1914.4124 133.6178,-56.8139 38.928,94.1637 -134.1439,56.8139 z" data-coordinate="m 1571.3244,1914.4124 133.6178,-56.8139 38.928,94.1637 -134.1439,56.8139 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="136" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1478.2127,2064.3379 -38.4019,-94.1638 131.5136,-55.7617 38.4019,94.1637 z" data-coordinate="m 1478.2127,2064.3379 -38.4019,-94.1638 131.5136,-55.7617 38.4019,94.1637 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="137" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1609.7263,2008.5761 -131.5136,55.7618 38.9281,96.794 133.6178,-57.34 z" data-coordinate="m 1609.7263,2008.5761 -131.5136,55.7618 38.9281,96.794 133.6178,-57.34 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="138" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1743.8702,1951.7622 -134.1439,56.8139 41.0323,95.2158 133.6178,-56.2878 z" data-coordinate="m 1743.8702,1951.7622 -134.1439,56.8139 41.0323,95.2158 133.6178,-56.2878 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="139" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1695.4732,2083.8019 88.9032,-36.2978 34.7196,83.6427 0.526,2.6302 0.5261,3.6824 v 3.1564 l -0.5261,1.5781 -0.526,2.1042 -83.1166,35.7717 z" data-coordinate="m 1695.4732,2083.8019 88.9032,-36.2978 34.7196,83.6427 0.526,2.6302 0.5261,3.6824 v 3.1564 l -0.5261,1.5781 -0.526,2.1042 -83.1166,35.7717 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="140" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1604.9918,2122.7299 90.4814,-38.928 40.5062,96.2679 -90.4814,39.4541 z" data-coordinate="m 1604.9918,2122.7299 90.4814,-38.928 40.5062,96.2679 -90.4814,39.4541 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="141" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2135.2546,1884.4273 38.928,93.1116 4.2085,7.3648 4.2084,3.1563 5.7866,0.526 72.0695,-29.9851 -45.7668,-108.3672 z" data-coordinate="m 2135.2546,1884.4273 38.928,93.1116 4.2085,7.3648 4.2084,3.1563 5.7866,0.526 72.0695,-29.9851 -45.7668,-108.3672 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="142" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2214.6888,1850.2337 45.7668,108.3672 89.9553,-38.928 -45.2407,-108.3672 z" data-coordinate="m 2214.6888,1850.2337 45.7668,108.3672 89.9553,-38.928 -45.2407,-108.3672 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="143" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2399.3339,1775.008 32.0075,80.0421 6.3945,16.2258 1.0521,4.2085 v 3.1563 l -2.1042,2.6303 -3.6824,2.1042 c -26.8673,13.425 -54.5426,25.234 -82.5905,36.2977 l -45.2407,-108.3672 z" data-coordinate="m 2399.3339,1775.008 32.0075,80.0421 6.3945,16.2258 1.0521,4.2085 v 3.1563 l -2.1042,2.6303 -3.6824,2.1042 c -26.8673,13.425 -54.5426,25.234 -82.5905,36.2977 l -45.2407,-108.3672 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="144" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2353.5672,1671.9013 45.7667,103.1067 -138.3523,56.2878 -42.6104,-102.5806 z" data-coordinate="m 2353.5672,1671.9013 45.7667,103.1067 -138.3523,56.2878 -42.6104,-102.5806 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="145" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2218.3712,1728.7152 42.6104,102.5806 -125.727,53.1315 -44.7146,-100.4764 z" data-coordinate="m 2218.3712,1728.7152 42.6104,102.5806 -125.727,53.1315 -44.7146,-100.4764 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="146" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2313.061,1573.5292 40.5062,98.3721 -135.196,56.8139 -42.0843,-96.268 z" data-coordinate="m 2313.061,1573.5292 40.5062,98.3721 -135.196,56.8139 -42.0843,-96.268 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="147" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2047.4035,1680.3182 43.1365,103.6327 127.8312,-55.2357 -45.2407,-102.0546 z" data-coordinate="m 2047.4035,1680.3182 43.1365,103.6327 127.8312,-55.2357 -45.2407,-102.0546 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="148" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2047.4035,1680.3182 125.727,-53.6576 -42.6104,-102.5806 -125.727,54.7097 z" data-coordinate="m 2047.4035,1680.3182 125.727,-53.6576 -42.6104,-102.5806 -125.727,54.7097 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="149" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2270.9766,1476.2091 42.0844,97.3201 -136.7741,58.918 -39.9802,-97.8461 z" data-coordinate="m 2270.9766,1476.2091 42.0844,97.3201 -136.7741,58.918 -39.9802,-97.8461 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="150" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2130.5201,1524.08 -125.727,54.7097 -95.7418,-225.6773 137.8262,-23.6725 z" data-coordinate="m 2130.5201,1524.08 -125.727,54.7097 -95.7418,-225.6773 137.8262,-23.6725 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="151" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2046.8775,1329.4399 151.5036,-24.1985 72.5955,170.9677 -134.6699,58.392 z" data-coordinate="m 2046.8775,1329.4399 151.5036,-24.1985 72.5955,170.9677 -134.6699,58.392 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="152" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1802.7883,1597.2016 177.2803,-74.6997 -71.0173,-169.3895 -196.2183,31.5632 z" data-coordinate="m 1802.7883,1597.2016 177.2803,-74.6997 -71.0173,-169.3895 -196.2183,31.5632 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="153" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1789.1109,1567.7426 -126.7791,55.2357 42.6104,101.0024 127.3051,-55.2357 z" data-coordinate="m 1789.1109,1567.7426 -126.7791,55.2357 42.6104,101.0024 127.3051,-55.2357 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="154" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1970.5996,1632.9733 -38.402,-90.4813 -129.4093,54.7096 36.2977,88.9032 z" data-coordinate="m 1970.5996,1632.9733 -38.402,-90.4813 -129.4093,54.7096 36.2977,88.9032 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="155" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1832.2473,1668.745 -127.3051,55.2357 41.5583,100.4764 128.3572,-54.7097 z" data-coordinate="m 1832.2473,1668.745 -127.3051,55.2357 41.5583,100.4764 128.3572,-54.7097 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="156" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1839.086,1686.1048 131.5136,-53.1315 39.9801,92.5856 -130.9875,54.7096 z" data-coordinate="m 1839.086,1686.1048 131.5136,-53.1315 39.9801,92.5856 -130.9875,54.7096 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="157" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1874.8577,1769.7474 -128.3572,54.7097 42.6104,100.4764 127.3051,-55.2357 z" data-coordinate="m 1874.8577,1769.7474 -128.3572,54.7097 42.6104,100.4764 127.3051,-55.2357 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="158" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1879.5922,1780.2685 130.9875,-54.7096 37.876,93.1116 -127.3052,55.2357 z" data-coordinate="m 1879.5922,1780.2685 130.9875,-54.7096 37.876,93.1116 -127.3052,55.2357 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="159" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1921.1505,1873.9062 127.3052,-55.2357 40.5061,94.1637 -130.9875,54.7097 z" data-coordinate="m 1921.1505,1873.9062 127.3052,-55.2357 40.5061,94.1637 -130.9875,54.7097 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="160" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1916.416,1869.6978 -127.3051,55.2357 41.5583,96.794 127.3051,-54.1836 z" data-coordinate="m 1916.416,1869.6978 -127.3051,55.2357 41.5583,96.794 127.3051,-54.1836 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="161" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2003.215,1948.0799 85.7468,-35.2457 31.5633,76.2779 5.2605,14.2035 1.5782,5.2605 -0.526,3.1563 -2.1043,2.6303 -77.856,34.1935 z" data-coordinate="m 2003.215,1948.0799 85.7468,-35.2457 31.5633,76.2779 5.2605,14.2035 1.5782,5.2605 -0.526,3.1563 -2.1043,2.6303 -77.856,34.1935 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="162" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1913.7857,1987.0079 89.4293,-38.928 43.6625,100.4763 -89.9553,38.9281 z" data-coordinate="m 1913.7857,1987.0079 89.4293,-38.928 43.6625,100.4763 -89.9553,38.9281 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="163" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1316.188,1681.8964 -89.9553,-215.6823 144.6649,-23.6725 76.804,183.0669 z" data-coordinate="m 1316.188,1681.8964 -89.9553,-215.6823 144.6649,-23.6725 76.804,183.0669 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="164" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1604.9918,2122.7299 40.5062,96.794 -76.2779,31.0372 h -5.2605 l -2.1042,-1.0521 -1.5782,-0.5261 -3.1563,-2.1042 -39.9801,-85.7468 z" data-coordinate="m 1604.9918,2122.7299 40.5062,96.794 -76.2779,31.0372 h -5.2605 l -2.1042,-1.0521 -1.5782,-0.5261 -3.1563,-2.1042 -39.9801,-85.7468 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="165" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1830.6692,2021.7275 34.1935,79.9602 7.1718,13.8995 3.5422,2.2389 4.822,-0.2221 5.6463,-1.6837 70.8772,-28.436 -43.1365,-100.4764 z" data-coordinate="m 1830.6692,2021.7275 34.1935,79.9602 7.1718,13.8995 3.5422,2.2389 4.822,-0.2221 5.6463,-1.6837 70.8772,-28.436 -43.1365,-100.4764 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="166" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1662.3318,1622.9783 -91.5335,-214.6302 142.0347,-23.6725 76.2779,183.067 z" data-coordinate="m 1662.3318,1622.9783 -91.5335,-214.6302 142.0347,-23.6725 76.2779,183.067 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="167" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2864.7902,1851.7677 28.0755,70.9709 1.2609,6.8953 -1.5041,4.3364 -3.2363,3.2363 -148.2234,75.7298 -39.1006,-93.7354 z" data-coordinate="m 2864.7902,1851.7677 28.0755,70.9709 1.2609,6.8953 -1.5041,4.3364 -3.2363,3.2363 -148.2234,75.7298 -39.1006,-93.7354 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="168" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2543.1,1985.1041 43.6099,96.4087 4.628,1.2459 11.3104,-3.1541 138.5145,-66.6682 -40.1304,-95.795 z" data-coordinate="m 2543.1,1985.1041 43.6099,96.4087 4.628,1.2459 11.3104,-3.1541 138.5145,-66.6682 -40.1304,-95.795 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="169" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2825.3071,1759.209 39.4831,92.5587 -144.5687,60.5747 -12.4125,5.1781 -5.7468,1.6805 -41.1602,-90.7348 z" data-coordinate="m 2825.3071,1759.209 39.4831,92.5587 -144.5687,60.5747 -12.4125,5.1781 -5.7468,1.6805 -41.1602,-90.7348 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="170" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2501.0278,1885.4255 42.0722,99.6786 157.9324,-67.9627 -43.3667,-98.3841 z" data-coordinate="m 2501.0278,1885.4255 42.0722,99.6786 157.9324,-67.9627 -43.3667,-98.3841 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="171" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2787.7658,1672.4756 37.5413,86.7334 -164.4051,69.2572 -34.9522,-87.3806 z" data-coordinate="m 2787.7658,1672.4756 37.5413,86.7334 -164.4051,69.2572 -34.9522,-87.3806 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="172" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2617.5353,1721.0204 -157.2851,67.9627 40.7776,96.4424 156.6379,-66.6682 z" data-coordinate="m 2617.5353,1721.0204 -157.2851,67.9627 40.7776,96.4424 156.6379,-66.6682 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="173" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2747.6354,1578.6224 40.1304,93.8532 -161.816,68.61 -40.7777,-93.8533 z" data-coordinate="m 2747.6354,1578.6224 40.1304,93.8532 -161.816,68.61 -40.7777,-93.8533 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="174" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2418.8253,1688.6572 41.4249,100.3259 157.2851,-67.9627 -41.4248,-96.4423 z" data-coordinate="m 2418.8253,1688.6572 41.4249,100.3259 157.2851,-67.9627 -41.4248,-96.4423 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="175" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2585.1721,1647.2323 -38.8358,-93.206 162.4633,-67.9627 38.8358,92.5588 z" data-coordinate="m 2585.1721,1647.2323 -38.8358,-93.206 162.4633,-67.9627 38.8358,92.5588 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="176" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2418.8253,1688.6572 -43.3667,-98.3841 157.9324,-64.7264 42.7195,99.0314 z" data-coordinate="m 2418.8253,1688.6572 -43.3667,-98.3841 157.9324,-64.7264 42.7195,99.0314 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="177" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2546.3363,1554.0263 162.4633,-67.9627 -39.4831,-93.8533 -163.7578,69.9045 z" data-coordinate="m 2546.3363,1554.0263 162.4633,-67.9627 -39.4831,-93.8533 -163.7578,69.9045 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="178" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2496.497,1434.2825 -158.5797,66.0209 37.5413,89.9697 157.9324,-64.7264 z" data-coordinate="m 2496.497,1434.2825 -158.5797,66.0209 37.5413,89.9697 157.9324,-64.7264 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="Дом 5" data-id="179" data-size="2300" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="10 000" d="m 2424.0034,1265.9939 231.7205,-38.1886 60.8428,141.7508 -211.008,92.5587 z" data-coordinate="m 2424.0034,1265.9939 231.7205,-38.1886 60.8428,141.7508 -211.008,92.5587 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="180" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2251.184,1295.768 172.8194,-29.7741 72.4936,168.2886 -158.5797,66.0209 z" data-coordinate="m 2251.184,1295.768 172.8194,-29.7741 72.4936,168.2886 -158.5797,66.0209 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="181" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2903.2735,1814.1491 156.0957,-65.7526 37.9548,87.1356 -128.8324,63.0798 -15.9427,7.2626 -2.2328,0.756 -2.7053,-0.2835 -2.1059,-1.6686 z" data-coordinate="m 2903.2735,1814.1491 156.0957,-65.7526 37.9548,87.1356 -128.8324,63.0798 -15.9427,7.2626 -2.2328,0.756 -2.7053,-0.2835 -2.1059,-1.6686 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="182" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2903.2735,1814.1491 -42.2314,-98.8963 157.1649,-65.218 41.1622,98.3617 z" data-coordinate="m 2903.2735,1814.1491 -42.2314,-98.8963 157.1649,-65.218 41.1622,98.3617 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="183" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3206.9118,1645.2236 -162.5106,66.2872 52.9228,124.0213 147.5425,-73.7713 5.3458,-3.742 1.323,-4.1525 -0.7884,-3.8661 -4.2766,-12.2952 z" data-coordinate="m 3206.9118,1645.2236 -162.5106,66.2872 52.9228,124.0213 147.5425,-73.7713 5.3458,-3.742 1.323,-4.1525 -0.7884,-3.8661 -4.2766,-12.2952 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="184" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3163.0767,1541.5162 -162.5106,68.4255 43.8351,101.5691 162.5106,-66.2872 z" data-coordinate="m 3163.0767,1541.5162 -162.5106,68.4255 43.8351,101.5691 162.5106,-66.2872 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="185" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2975.9756,1551.1385 -155.0265,65.7527 40.093,98.3616 157.1649,-65.218 z" data-coordinate="m 2975.9756,1551.1385 -155.0265,65.7527 40.093,98.3616 157.1649,-65.218 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="186" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2958.3347,1507.838 161.976,-68.4255 42.766,102.1037 -162.5106,68.4255 z" data-coordinate="m 2958.3347,1507.838 161.976,-68.4255 42.766,102.1037 -162.5106,68.4255 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="187" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2778.7177,1518.5295 42.2314,98.3617 155.0265,-65.7527 -42.2313,-97.8271 z" data-coordinate="m 2778.7177,1518.5295 42.2314,98.3617 155.0265,-65.7527 -42.2313,-97.8271 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="188" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2737.5555,1420.7024 41.1622,97.8271 155.0266,-65.2181 -41.1623,-98.3617 z" data-coordinate="m 2737.5555,1420.7024 41.1622,97.8271 155.0266,-65.2181 -41.1623,-98.3617 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="189" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2826.8294,1199.3886 65.7526,155.5611 -155.0265,65.7527 -81.8316,-192.8971 z" data-coordinate="m 2826.8294,1199.3886 65.7526,155.5611 -155.0265,65.7527 -81.8316,-192.8971 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="190" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2826.8294,1199.3886 231.4707,-37.9548 64.6835,154.492 -208.484,90.8776 z" data-coordinate="m 2826.8294,1199.3886 231.4707,-37.9548 64.6835,154.492 -208.484,90.8776 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="191" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3120.3107,1439.4125 -42.7659,-102.6383 -163.0452,70.0292 43.8351,101.0346 z" data-coordinate="m 3120.3107,1439.4125 -42.7659,-102.6383 -163.0452,70.0292 43.8351,101.0346 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="192" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3261.9729,1640.4124 190.8431,-80.7207 35.2819,82.859 -172.6675,84.9974 -7.4841,3.2074 h -4.2766 l -2.1383,-2.1383 z" data-coordinate="m 3261.9729,1640.4124 190.8431,-80.7207 35.2819,82.859 -172.6675,84.9974 -7.4841,3.2074 h -4.2766 l -2.1383,-2.1383 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="193" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3261.9729,1640.4124 -39.5585,-93.0159 190.8431,-79.6516 39.5585,91.9468 z" data-coordinate="m 3261.9729,1640.4124 -39.5585,-93.0159 190.8431,-79.6516 39.5585,91.9468 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="194" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3640.9862,1447.4311 -200.4654,85.5319 47.5771,109.5877 185.4973,-93.0159 5.3458,-3.742 1.0691,-4.8112 -1.6037,-6.4149 z" data-coordinate="m 3640.9862,1447.4311 -200.4654,85.5319 47.5771,109.5877 185.4973,-93.0159 5.3458,-3.742 1.0691,-4.8112 -1.6037,-6.4149 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="195" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3640.9862,1447.4311 -40.6277,-98.8963 -202.6037,86.0665 42.766,98.3617 z" data-coordinate="m 3640.9862,1447.4311 -40.6277,-98.8963 -202.6037,86.0665 42.766,98.3617 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="196" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3600.3585,1348.5348 -43.3005,-99.4308 -200.4654,86.0664 41.1622,99.4309 z" data-coordinate="m 3600.3585,1348.5348 -43.3005,-99.4308 -200.4654,86.0664 41.1622,99.4309 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="" data-id="197" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3557.058,1249.104 -67.891,-159.3032 -222.9175,35.8165 90.3431,209.5531 z" data-coordinate="m 3557.058,1249.104 -67.891,-159.3032 -222.9175,35.8165 90.3431,209.5531 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="198" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3183.3905,1456.5188 -37.9548,-90.8776 189.7739,-81.7899 39.024,94.0851 z" data-coordinate="m 3183.3905,1456.5188 -37.9548,-90.8776 189.7739,-81.7899 39.024,94.0851 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="199" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3222.4144,1547.3965 -39.0239,-90.8777 190.8431,-78.5824 39.0239,89.8085 z" data-coordinate="m 3222.4144,1547.3965 -39.0239,-90.8777 190.8431,-78.5824 39.0239,89.8085 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="200" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3145.4357,1365.6412 189.7739,-81.7899 -68.9601,-158.234 -207.9494,35.8165 z" data-coordinate="m 3145.4357,1365.6412 189.7739,-81.7899 -68.9601,-158.234 -207.9494,35.8165 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="201" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2851.8684,671.92925 57.9605,139.5344 189.9814,-78.35393 -17.1735,-44.007 z" data-coordinate="m 2851.8684,671.92925 57.9605,139.5344 189.9814,-78.35393 -17.1735,-44.007 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="202" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2909.8289,811.46365 41.8603,100.8941 191.0548,-80.50061 -42.9337,-98.74742 z" data-coordinate="m 2909.8289,811.46365 41.8603,100.8941 191.0548,-80.50061 -42.9337,-98.74742 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="203" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2951.6892,912.35775 40.7869,97.67405 192.1282,-79.42724 -41.8603,-98.74742 z" data-coordinate="m 2951.6892,912.35775 40.7869,97.67405 192.1282,-79.42724 -41.8603,-98.74742 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="204" data-size="" stroke="white" stroke-width="3" data-electricity="12" stroke-opacity="0" data-price="" d="m 3184.6043,930.60456 -239.3552,98.74744 59.0338,141.6811 261.9666,-45.4158 z" data-coordinate="m 3184.6043,930.60456 -239.3552,98.74744 59.0338,141.6811 261.9666,-45.4158 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="205" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3082.6368,689.10272 214.6683,17.17346 13.0643,1.19797 c 4.2277,0.26268 9.8848,1.92307 15.0323,5.43182 3.665,2.80715 5.3561,6.17822 7.3237,9.47033 l 8.5867,18.24681 -200.7064,84.57685 z" data-coordinate="m 3082.6368,689.10272 214.6683,17.17346 13.0643,1.19797 c 4.2277,0.26268 9.8848,1.92307 15.0323,5.43182 3.665,2.80715 5.3561,6.17822 7.3237,9.47033 l 8.5867,18.24681 -200.7064,84.57685 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="206" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3140.6057,825.19996 34.4727,83.13276 201.5661,-85.03017 -35.3324,-82.67944 z" data-coordinate="m 3140.6057,825.19996 34.4727,83.13276 201.5661,-85.03017 -35.3324,-82.67944 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="207" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3210.4307,990.2753 200.3673,-85.00431 -34.1535,-81.96844 -201.5661,85.03017 z" data-coordinate="m 3210.4307,990.2753 200.3673,-85.00431 -34.1535,-81.96844 -201.5661,85.03017 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="208" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 3266.2495,1125.6173 222.9175,-35.8165 -78.369,-184.52981 -200.3673,85.00431 z" data-coordinate="m 3266.2495,1125.6173 222.9175,-35.8165 -78.369,-184.52981 -200.3673,85.00431 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="Дом 2423" data-id="209" data-size="3333333" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="10000" d="m 2767.8445,1058.8525 -39.7136,-92.30735 161.3045,-70.28752 40.7869,95.5274 z" data-coordinate="m 2767.8445,1058.8525 -39.7136,-92.30735 161.3045,-70.28752 40.7869,95.5274 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="210" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2741.1953,998.19237 -201.6693,90.19343 64.4005,151.3411 222.9029,-40.3383 z" data-coordinate="m 2741.1953,998.19237 -201.6693,90.19343 64.4005,151.3411 222.9029,-40.3383 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="211" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2544.8927,967.09817 40.787,100.89413 155.5156,-69.79993 -41.7414,-97.64137 z" data-coordinate="m 2544.8927,967.09817 40.787,100.89413 155.5156,-69.79993 -41.7414,-97.64137 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="212" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2889.4354,896.25763 -39.7137,-91.23403 -161.0012,69.7672 39.4104,91.75435 z" data-coordinate="m 2889.4354,896.25763 -39.7137,-91.23403 -161.0012,69.7672 39.4104,91.75435 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="213" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2544.8927,967.09817 -41.8603,-98.74742 156.7079,-64.40049 39.7136,96.60074 z" data-coordinate="m 2544.8927,967.09817 -41.8603,-98.74742 156.7079,-64.40049 39.7136,96.60074 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="214" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2650.8852,781.67842 161.2696,-66.81551 37.5669,90.16069 -161.0012,69.7672 z" data-coordinate="m 2650.8852,781.67842 161.2696,-66.81551 37.5669,90.16069 -161.0012,69.7672 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="215" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2462.7821,771.88418 40.2503,96.46657 156.7079,-64.40049 -41.8603,-97.67408 z" data-coordinate="m 2462.7821,771.88418 40.2503,96.46657 156.7079,-64.40049 -41.8603,-97.67408 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="216" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2592.6315,649.11961 185.188,15.9383 7.5896,3.03587 5.6923,4.93329 2.6564,3.41535 18.397,38.42049 -161.2696,66.81551 z" data-coordinate="m 2592.6315,649.11961 185.188,15.9383 7.5896,3.03587 5.6923,4.93329 2.6564,3.41535 18.397,38.42049 -161.2696,66.81551 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="217" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2462.7821,771.88418 -53.0617,-126.55941 5.3128,-3.03587 6.4512,-1.13845 17.4563,-1.89742 153.6908,9.86658 25.2485,57.15657 z" data-coordinate="m 2462.7821,771.88418 -53.0617,-126.55941 5.3128,-3.03587 6.4512,-1.13845 17.4563,-1.89742 153.6908,9.86658 25.2485,57.15657 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="218" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2355.448,1103.4125 68.5554,162.5814 179.9231,-26.267 -87.4773,-205.5449 z" data-coordinate="m 2355.448,1103.4125 68.5554,162.5814 179.9231,-26.267 -87.4773,-205.5449 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="219" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2339.8845,1068.5289 -157.2445,67.0839 68.544,160.1552 172.8194,-29.7741 z" data-coordinate="m 2339.8845,1068.5289 -157.2445,67.0839 68.544,160.1552 172.8194,-29.7741 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="220" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2296.4142,963.34147 -157.7812,67.08383 44.007,105.1875 157.2445,-67.0839 z" data-coordinate="m 2296.4142,963.34147 -157.7812,67.08383 44.007,105.1875 157.2445,-67.0839 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="221" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2312.5143,1000.3718 161.0012,-67.62056 42.9337,101.43076 -161.0012,69.2305 z" data-coordinate="m 2312.5143,1000.3718 161.0012,-67.62056 42.9337,101.43076 -161.0012,69.2305 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="222" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2430.0452,831.32047 -161.0012,69.23053 43.4703,99.8208 161.0012,-67.62056 z" data-coordinate="m 2430.0452,831.32047 -161.0012,69.23053 43.4703,99.8208 161.0012,-67.62056 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="223" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2387.1115,731.49971 -160.4645,68.69385 42.397,100.35744 161.0012,-69.23053 z" data-coordinate="m 2387.1115,731.49971 -160.4645,68.69385 42.397,100.35744 161.0012,-69.23053 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="224" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2252.4072,859.76402 -157.7812,66.0105 44.007,104.65078 157.7812,-67.08383 z" data-coordinate="m 2252.4072,859.76402 -157.7812,66.0105 44.007,104.65078 157.7812,-67.08383 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="225" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2206.5218,754.30821 -157.5128,67.88885 45.617,103.57746 157.7812,-66.0105 z" data-coordinate="m 2206.5218,754.30821 -157.5128,67.88885 45.617,103.57746 157.7812,-66.0105 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="226" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2173.5166,673.53926 -172.2713,25.22353 47.7637,123.43427 157.5128,-67.88885 z" data-coordinate="m 2173.5166,673.53926 -172.2713,25.22353 47.7637,123.43427 157.5128,-67.88885 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="227" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2173.5166,673.53926 168.5146,-20.93016 9.1234,2.14669 5.9034,6.97672 30.0535,69.7672 -160.4645,68.69385 z" data-coordinate="m 2173.5166,673.53926 168.5146,-20.93016 9.1234,2.14669 5.9034,6.97672 30.0535,69.7672 -160.4645,68.69385 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="228" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 2826.8294,1199.3886 -60.8283,-139.9831 164.2212,-67.62047 74.0606,179.24807 z" data-coordinate="m 2826.8294,1199.3886 -60.8283,-139.9831 164.2212,-67.62047 74.0606,179.24807 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="229" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1792.5333,723.26004 55.3023,131.2509 134.9378,-57.51444 -30.232,-72.9991 -10.3231,-14.00992 -7.3736,-2.94946 z" data-coordinate="m 1792.5333,723.26004 55.3023,131.2509 134.9378,-57.51444 -30.232,-72.9991 -10.3231,-14.00992 -7.3736,-2.94946 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="230" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1847.8356,854.51094 42.0298,101.75631 135.6751,-58.98917 -42.7671,-100.28158 z" data-coordinate="m 1847.8356,854.51094 42.0298,101.75631 135.6751,-58.98917 -42.7671,-100.28158 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="231" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1889.8654,956.26725 41.2924,100.28155 137.1499,-58.98914 -42.7672,-100.28158 z" data-coordinate="m 1889.8654,956.26725 41.2924,100.28155 137.1499,-58.98914 -42.7672,-100.28158 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="232" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1931.1578,1056.5488 43.5046,101.019 136.4124,-57.5145 -42.7671,-102.49364 z" data-coordinate="m 1931.1578,1056.5488 43.5046,101.019 136.4124,-57.5145 -42.7671,-102.49364 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="233" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1917.1479,1023.3674 -126.0893,53.0903 43.5045,104.7057 129.0388,-53.8276 z" data-coordinate="m 1917.1479,1023.3674 -126.0893,53.0903 43.5045,104.7057 129.0388,-53.8276 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="234" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1974.6624,1157.5678 136.4124,-57.5145 87.3063,205.1881 -151.5036,24.1985 z" data-coordinate="m 1974.6624,1157.5678 136.4124,-57.5145 87.3063,205.1881 -151.5036,24.1985 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="red" data-address="" data-id="235" data-size="22" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1963.6019,1127.3358 -175.4928,73.7365 66.3628,158.5334 192.4056,-30.1658 z" data-coordinate="m 1963.6019,1127.3358 -175.4928,73.7365 66.3628,158.5334 192.4056,-30.1658 z" fill="red" fill-opacity="0.3">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="236" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1874.3808,917.18693 -126.8267,54.56497 43.5045,104.7058 126.0893,-53.0903 z" data-coordinate="m 1874.3808,917.18693 -126.8267,54.56497 43.5045,104.7058 126.0893,-53.0903 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="237" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1828.6642,812.48115 -124.6146,56.03971 43.5045,103.23104 126.8267,-54.56497 z" data-coordinate="m 1828.6642,812.48115 -124.6146,56.03971 43.5045,103.23104 126.8267,-54.56497 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="238" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1792.5333,723.26004 -137.1498,20.64621 48.6661,124.61461 124.6146,-56.03971 z" data-coordinate="m 1792.5333,723.26004 -137.1498,20.64621 48.6661,124.61461 124.6146,-56.03971 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="239" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1768.9376,1157.5678 -129.7761,53.8276 73.6715,173.2802 141.6389,-25.0699 z" data-coordinate="m 1768.9376,1157.5678 -129.7761,53.8276 73.6715,173.2802 141.6389,-25.0699 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="240" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1627.3636,1184.8503 -175.1873,73.9524 66.7947,160.5295 193.862,-34.6566 z" data-coordinate="m 1627.3636,1184.8503 -175.1873,73.9524 66.7947,160.5295 193.862,-34.6566 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="241" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1582.3844,1075.7203 -128.3014,55.3024 45.7166,107.6552 127.564,-53.8276 z" data-coordinate="m 1582.3844,1075.7203 -128.3014,55.3024 45.7166,107.6552 127.564,-53.8276 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="242" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1549.9404,1001.9839 131.2509,-56.03976 45.7166,107.65526 -130.5136,53.0902 z" data-coordinate="m 1549.9404,1001.9839 131.2509,-56.03976 45.7166,107.65526 -130.5136,53.0902 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="243" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1726.9079,1053.5994 42.0297,103.9684 -129.7761,53.8276 -42.7672,-104.7058 z" data-coordinate="m 1726.9079,1053.5994 42.0297,103.9684 -129.7761,53.8276 -42.7672,-104.7058 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="244" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1535.9304,968.06508 -129.0388,54.56502 47.1914,108.3926 128.3014,-55.3024 z" data-coordinate="m 1535.9304,968.06508 -129.0388,54.56502 47.1914,108.3926 128.3014,-55.3024 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="245" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1635.4746,841.97574 45.7167,103.9684 -131.2509,56.03976 -44.2419,-104.70582 z" data-coordinate="m 1635.4746,841.97574 45.7167,103.9684 -131.2509,56.03976 -44.2419,-104.70582 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="246" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1362.6498,913.5001 128.3014,-54.56498 44.9792,109.12996 -129.0388,54.56502 z" data-coordinate="m 1362.6498,913.5001 128.3014,-54.56498 44.9792,109.12996 -129.0388,54.56502 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="247" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1451.1335,768.23928 131.9883,-14.74729 8.111,-0.73737 5.1615,2.94946 4.4242,5.16155 34.6561,81.11011 -129.7761,55.30234 z" data-coordinate="m 1451.1335,768.23928 131.9883,-14.74729 8.111,-0.73737 5.1615,2.94946 4.4242,5.16155 34.6561,81.11011 -129.7761,55.30234 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="248" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1451.1335,768.23928 -50.5095,7.37364 -20.2775,3.31814 -25.0704,8.84838 -30.9693,15.48466 -3.3181,5.53023 1.106,6.63628 40.5551,98.06949 128.3014,-54.56498 z" data-coordinate="m 1451.1335,768.23928 -50.5095,7.37364 -20.2775,3.31814 -25.0704,8.84838 -30.9693,15.48466 -3.3181,5.53023 1.106,6.63628 40.5551,98.06949 128.3014,-54.56498 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="249" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1307.7161,920.13638 -37.2369,-85.90297 -3.3182,-4.42419 -5.5302,-0.36868 -81.8475,33.1814 39.0804,95.12004 z" data-coordinate="m 1307.7161,920.13638 -37.2369,-85.90297 -3.3182,-4.42419 -5.5302,-0.36868 -81.8475,33.1814 39.0804,95.12004 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="250" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1179.7833,862.62194 -91.0645,39.08033 41.2924,93.6453 88.8525,-37.60559 z" data-coordinate="m 1179.7833,862.62194 -91.0645,39.08033 41.2924,93.6453 88.8525,-37.60559 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="251" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1088.7188,901.70227 -77.4233,34.65613 -4.0555,3.31814 v 4.42419 l 1.4748,5.53024 33.9187,82.21613 87.3777,-36.49953 z" data-coordinate="m 1088.7188,901.70227 -77.4233,34.65613 -4.0555,3.31814 v 4.42419 l 1.4748,5.53024 33.9187,82.21613 87.3777,-36.49953 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="252" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1174.2531,976.17609 40.9237,97.33211 -130.8822,54.9337 -41.6611,-96.5948 z" data-coordinate="m 1174.2531,976.17609 40.9237,97.33211 -130.8822,54.9337 -41.6611,-96.5948 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="253" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1124.1123,1224.2993 -39.8177,-95.8574 130.8822,-54.9337 40.9238,95.4887 z" data-coordinate="m 1124.1123,1224.2993 -39.8177,-95.8574 130.8822,-54.9337 40.9238,95.4887 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="254" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1307.7161,920.13638 41.2924,96.22612 -133.8317,57.1457 -40.9237,-97.33211 z" data-coordinate="m 1307.7161,920.13638 41.2924,96.22612 -133.8317,57.1457 -40.9237,-97.33211 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="255" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1349.0085,1016.3625 40.5551,96.226 -133.463,56.4084 -40.9238,-95.4887 z" data-coordinate="m 1349.0085,1016.3625 40.5551,96.226 -133.463,56.4084 -40.9238,-95.4887 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="256" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1389.5636,1112.5885 40.555,95.8574 -134.2003,57.5145 -39.8177,-96.9635 z" data-coordinate="m 1389.5636,1112.5885 40.555,95.8574 -134.2003,57.5145 -39.8177,-96.9635 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="257" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1430.1186,1208.4459 88.8524,210.8863 -148.0734,23.2094 -74.9793,-176.5812 z" data-coordinate="m 1430.1186,1208.4459 88.8524,210.8863 -148.0734,23.2094 -74.9793,-176.5812 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="258" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1295.9183,1265.9604 -131.6422,54.9433 61.9566,145.3104 144.6649,-23.6725 z" data-coordinate="m 1295.9183,1265.9604 -131.6422,54.9433 61.9566,145.3104 144.6649,-23.6725 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a><a href="#">
+                            <path class="part open" transform="rotate(-64.729791,2962.4132,2810.7232)" data-status="#fff" data-address="" data-id="259" data-size="" stroke="white" stroke-width="3" data-electricity="" stroke-opacity="0" data-price="" d="m 1124.1123,1224.2993 40.1638,96.6044 131.6422,-54.9433 -39.8177,-96.9635 z" data-coordinate="m 1124.1123,1224.2993 40.1638,96.6044 131.6422,-54.9433 -39.8177,-96.9635 z" fill="#fff" fill-opacity="0">
+                            </path>
+                        </a>
+                    </svg>
+                </section>
             </section>
             <div class="container-big">
                 <section class="video" style="background-image: url(images/video.jpg)">
@@ -170,12 +969,12 @@
                             <span>River Park</span>
                         </div>
                         <div class="heading-h3" data-aos="fade-right" data-aos-once="true" data-duration="500" data-delay="100">Служба безопасности</div>
-                        <ul  data-aos="fade-right" data-aos-once="true" data-duration="500" data-delay="200">
+                        <ul data-aos="fade-right" data-aos-once="true" data-duration="500" data-delay="200">
                             <li>Закрытая охраняемая территория (ГСО)</li>
                             <li>Видеонаблюдение по всему периметру </li>
                             <li>Пропускная система</li>
                         </ul>
-                        <div class="heading-h3"  data-aos="fade-right" data-aos-once="true" data-duration="500" data-delay="150">Служба эксплуатации</div>
+                        <div class="heading-h3" data-aos="fade-right" data-aos-once="true" data-duration="500" data-delay="150">Служба эксплуатации</div>
                         <ul data-aos="fade-right" data-duration="500" data-aos-once="true" data-delay="200">
                             <li>Озеленение общественной территории, уход
                                 за газонами и посадками</li>
@@ -184,7 +983,7 @@
                             <li>Регулярный вывоз мусора</li>
                             <li>Сервисная служба: услуги электрика и сантехника</li>
                         </ul>
-                        <div class="heading-h3"  data-aos="fade-right" data-duration="500" data-aos-once="true" data-delay="250">Система коммуникаций</div>
+                        <div class="heading-h3" data-aos="fade-right" data-duration="500" data-aos-once="true" data-delay="250">Система коммуникаций</div>
                         <ul data-aos="fade-right" data-duration="500" data-delay="300" data-aos-once="true">
                             <li>Газификация каждого участка</li>
                             <li>Подключение каждого участка к электричеству</li>
@@ -205,7 +1004,7 @@
                             <li>Гостевая парковка</li>
                         </ul>
                         <div class="heading-h3" data-aos="fade-left" data-duration="500" data-aos-once="true" data-delay="200">Внутренняя инфраструктура</div>
-                        <ul  data-duration="500" data-aos="fade-left" data-aos-once="true" data-delay="300">
+                        <ul data-duration="500" data-aos="fade-left" data-aos-once="true" data-delay="300">
                             <li>Зона отдыха и развлечений: летняя площадка с открытым бассейном</li>
                             <li>Спортивная зона: площадка для пляжного волейбола, поле для мини-футбола, теннисные столы, беговая дорожка</li>
                             <li>Комфорт для детей и их родителей: наличие частного детского сада и детской площадки</li>
@@ -257,7 +1056,7 @@
                                         <input type="text" id="phone" name="name" class="form-control js-phone">
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn btn-callback">Перезвоните мне</button>
+                                        <button class="btn btn-callback" type="button" data-toggle="modal" data-target="#js-thanks">Перезвоните мне</button>
                                     </div>
                                 </form>
                             </div>
@@ -275,6 +1074,43 @@
                 <div class="footer-copyright">&copy; 2019 Все права защищены</div>
             </div>
         </footer>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="js-contacts" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Оставьте заявку</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Телефон</label>
+                            <input type="text" id="phone" name="name" class="form-control js-phone" maxlength="14">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-callback">Перезвоните мне</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="js-thanks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Спасибо! Ваши контакты отправлены</h4>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
