@@ -1249,9 +1249,12 @@ Build date: 2018-12-12 00:07:25
     overflow-y: auto;
 
     img {
-        max-width: none;
-        width: auto;
-        height: auto;
+        @media screen and (max-width: 991px) {
+            max-width: none;
+            width: auto;
+            height: auto;
+        }
+
     }
 
 }
