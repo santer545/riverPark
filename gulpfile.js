@@ -66,6 +66,7 @@ gulp.task('scripts', function() {
             sourceDir + '/validate.js',
             sourceDir + '/ion.rangeSlider.js',
             sourceDir + '/modal.js',
+            sourceDir + '/map.js',
             sourceDir + '/home-main.js'
         ])
 

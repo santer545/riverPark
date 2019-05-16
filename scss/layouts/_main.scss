@@ -34,6 +34,10 @@
     padding-top: 20px;
     margin-bottom: 100px;
 
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
+
     &-text {
 
         font-size: 24px;
@@ -74,7 +78,8 @@
                 display: block;
                 flex: 0 0 33.3%;
                 text-align: center;
-                font-size: 12px;
+                font-size: 15px;
+                padding: 0 10px;
             }
 
 
@@ -119,6 +124,10 @@
 
     @media screen and (max-width: 991px) {
         margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
     }
 
     img {
@@ -174,6 +183,10 @@
 
     margin-bottom: 100px;
 
+    @media screen and (max-width: 991px) {
+        margin-bottom: 0;
+    }
+
     &-img {
         @media screen and (max-width: 1500px) {
             max-width: 60%;
@@ -197,13 +210,17 @@
         height: 300px;
         margin-bottom: 50px;
     }
+
+    img {
+        width: 100%;
+    }
 }
 
 .infrastructure {
     background-image: url('../images/tree.png');
-    background-position: 100% 0;
+    background-position: 194% 0;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 76%;
     margin-bottom: 100px;
 
     &-img {
@@ -234,8 +251,16 @@
     }
 
     &__inverse {
-        padding-bottom: 60px;
-        background-position: 120% 0;
+        background-position: 180% 0;
+        margin-bottom: 0;
+    }
+}
+
+.outer-img {
+    margin-top: 80px;
+
+    img {
+        display: block;
     }
 }
 
@@ -257,6 +282,11 @@
 
 .full-width {
     max-width: none;
+    margin-left: -180px;
+
+    @media screen and (max-width: 1199px) {
+        margin-left: -60px;
+    }
 }
 
 .callback {
@@ -322,9 +352,26 @@
 }
 
 // General plan
-.plan {}
+.plan {
+    position: relative;
+}
+
+
 
 .filter {
+
+    &-holder {
+        position: absolute;
+        top: 150px;
+        left: 20%;
+
+        @media screen and (max-width: 767px) {
+            top: 165px;
+            left: 20px;
+            min-width: 285px;
+        }
+    }
+
     &-heading {
         font-size: 24px;
         font-weight: bold;
@@ -334,7 +381,6 @@
 
     &-wrapper {
         max-width: 400px;
-        margin-bottom: 100px;
     }
 }
 
@@ -345,8 +391,64 @@
     margin-bottom: 20px;
 }
 
+.relative {
+    position: relative;
+}
 
-.map {}
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    left: 60%;
+    top: 20%;
+    color: #0c7492;
+    transform: scaleX(0);
+    transition: transform 0.6s;
+    transition-delay: 0.6s;
+
+    @media screen and (max-width: 1279px) {
+        display: none !important;
+    }
+
+    &:after {
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: #fff;
+        right: calc(100% - 2px);
+        top: 30px;
+        position: absolute;
+        transform: rotate(-10deg);
+        transition: all 0.6s;
+    }
+
+    &.active {
+        transform: scaleX(1);
+        &:after {
+            width: 200px;
+        }
+
+    }
+
+    &-bottom {
+        top: auto;
+        bottom: 100px;
+        left: 20%;
+    }
+}
+
+.map {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-image: url('../images/tree.png'), url('../images/tree.png'), url('../images/tree.png');
+    background-position: -15% 145%, -45% 20%, 130% 0;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 20%, 40%, 50%;
+
+    @media screen and (max-width: 767px) {
+        background-image: none;
+    }
+}
 
 .footer {
     background-color: #E7F1F4;
@@ -633,6 +735,7 @@ Build date: 2018-12-12 00:07:25
     overflow: hidden;
     border: 3px solid transparent;
     border-top-color: #ed5565;
+    display: none;
 }
 
 .irs--flat .irs-grid-pol {
@@ -1254,6 +1357,11 @@ Build date: 2018-12-12 00:07:25
             width: auto;
             height: auto;
         }
+
+        @media screen and (max-width: 767px) {
+            margin-top: -140px;
+        }
+
 
     }
 

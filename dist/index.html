@@ -147,11 +147,13 @@
             </section>
             <section class="plan" id="anchor2">
                 <div class="container">
-                    <div class="heading-h1 heading-h1__inverse">Генплан</div>
-                    <div class="filter-heading">Фильтр участков</div>
-                    <div class="range-title">Цена</div>
-                    <div class="filter-wrapper">
-                        <input type="text" class="js-range-slider" name="my_range" value="" />
+                    <div class="filter-holder">
+                        <div class="heading-h1 heading-h1__inverse">Генплан</div>
+                        <div class="filter-heading">Фильтр участков</div>
+                        <div class="range-title">Площадь</div>
+                        <div class="filter-wrapper">
+                            <input type="text" class="js-range-slider" name="my_range" value="" />
+                        </div>
                     </div>
                     <div class="info-window">
                         <div class="info-top">
@@ -173,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <section class="big-img map-svg">
+                <section class="big-img map-svg" id="bigImg">
                     <img src="images/Top_View_03.jpg" alt="">
                     <svg viewBox="3 3 2956 4394.6665">
                         <a href="#">
@@ -954,7 +956,7 @@
                     </svg>
                 </section>
             </section>
-            <div class="container-big">
+            <div class="container-big container">
                 <section class="video" style="background-image: url(images/video.jpg)">
                     <div class="video-holder">
                         <video src="">
@@ -1013,14 +1015,24 @@
                     </div>
                 </div>
             </section>
-            <section class="section-img">
-                <div class="container-big">
-                    <img src="images/screen-5.jpg" alt="">
+            <section class="section-img section-img__admin">
+                <div class="container-big container">
+                    <div class="relative">
+                    	<div class="tooltip">
+                    		Административное здание
+                    	</div>
+                    	<img src="images/screen-5.jpg" alt="">
+                    </div>
                 </div>
             </section>
-            <section class="section-img">
-                <div class="container-big">
-                    <img src="images/screen-6.jpg" alt="">
+            <section class="section-img section-img__football">
+                <div class="container-big container">
+                    <div class="relative">
+                    	<div class="tooltip tooltip-bottom">
+                    		Административное здание
+                    	</div>
+                    	<img src="images/screen-6.jpg" alt="">
+                    </div>
                 </div>
             </section>
             <section class="infrastructure infrastructure__inverse">
@@ -1032,6 +1044,9 @@
                         <li>Расстояние до центра Харькова - 8.9 км</li>
                         <li>Поселок окружен лесом,рекой, рядом находится гостинично-ресторанный комплекс</li>
                     </ul>
+                </div>
+                <div class="outer-img container container-big">
+                    <img src="images/animation.jpg" alt="">
                 </div>
             </section>
             <section class="map" id="anchor1">
@@ -1115,6 +1130,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
     <script src="js/all.min.js"></script>
 </body>
 
