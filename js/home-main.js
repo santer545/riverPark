@@ -51,11 +51,29 @@ function scrollPosition() {
 
     var el = document.getElementById("bigImg"); // Or whatever method to get the element
 
-    // To set the scroll
-    // To set the scroll
     el.scrollTo(778, 0);
-
-    // // To increment the scroll
-    // el.scrollTop += 100;
-    // el.scrollLeft += 100;
 }
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+$(window).on('resize scroll', function() {
+    if ($('#section-1').isInViewport()) {
+        $('#section-1').find('.tooltip').addClass('active');
+    } else {
+        $('#section-1').find('.tooltip').removeClass('active');
+    }
+
+    if ($('#section-2').isInViewport()) {
+        $('#section-2').find('.tooltip').addClass('active');
+    } else {
+        $('#section-2').find('.tooltip').removeClass('active');
+    }
+});
