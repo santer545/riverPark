@@ -7,6 +7,7 @@ $(function() {
     preloaderHide();
     anchor();
     scrollPosition();
+    tooltip();
 });
 
 function rangePrice(element) {
@@ -52,6 +53,12 @@ function scrollPosition() {
     var el = document.getElementById("bigImg"); // Or whatever method to get the element
 
     el.scrollTo(778, 0);
+}
+
+function tooltip () {
+    $('svg a').tooltipster({
+        contentCloning: true
+    });
 }
 
 $.fn.isInViewport = function() {
