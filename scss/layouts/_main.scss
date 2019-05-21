@@ -367,8 +367,9 @@
 
         @media screen and (max-width: 767px) {
             top: 165px;
-            left: 20px;
+            left: 800px;
             min-width: 285px;
+            text-align: left;
         }
     }
 
@@ -1352,7 +1353,7 @@ Build date: 2018-12-12 00:07:25
 
 
 .big-img {
-    overflow: auto;
+    margin-top: -140px;
 
     img {
         @media screen and (max-width: 991px) {
@@ -1360,11 +1361,6 @@ Build date: 2018-12-12 00:07:25
             width: auto;
             height: auto;
         }
-
-        @media screen and (max-width: 767px) {
-            margin-top: -140px;
-        }
-
 
     }
 

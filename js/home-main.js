@@ -50,7 +50,7 @@ function scrollPosition() {
         enumerable: false
     });
 
-    var el = document.getElementById("bigImg"); // Or whatever method to get the element
+    var el = document.getElementById("mapWrapper"); // Or whatever method to get the element
 
     el.scrollTo(778, 0);
 }
