@@ -6,7 +6,7 @@ $(function() {
     });
     preloaderHide();
     anchor();
-    scrollPosition();
+    //scrollPosition();
     tooltip();
 });
 

@@ -114,14 +114,6 @@ function imgWidthCalc() {
 }
 
 
-$(function() {
-    imgWidthCalc();
-})
-
-$(window).resize(function () {
-    imgWidthCalc();
-});
-
 
 $(document).on("submit", '.js_ajax', function () {
 

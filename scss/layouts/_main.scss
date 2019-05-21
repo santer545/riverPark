@@ -365,9 +365,13 @@
         top: 150px;
         left: 20%;
 
+        @media screen and (max-width: 991px) {
+            position: static;
+        }
+
         @media screen and (max-width: 767px) {
             top: 165px;
-            left: 800px;
+            left: 20px;
             min-width: 285px;
             text-align: left;
         }
@@ -407,9 +411,9 @@
     transition: transform 0.6s;
     transition-delay: 0.6s;
 
-    @media screen and (max-width: 1279px) {
-        display: none !important;
-    }
+    // @media screen and (max-width: 1279px) {
+    //     display: none !important;
+    // }
 
     &:after {
         content: '';
@@ -1355,15 +1359,9 @@ Build date: 2018-12-12 00:07:25
 .big-img {
     margin-top: -140px;
 
-    img {
-        @media screen and (max-width: 991px) {
-            max-width: none;
-            width: auto;
-            height: auto;
-        }
-
+    @media screen and (max-width: 991px) {
+        margin-top: 0;
     }
-
 }
 
 
