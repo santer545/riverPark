@@ -142,12 +142,12 @@ ul {
     li {
         position: relative;
         padding-left: 20px;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 21px;
+        line-height: 34px;
 
-        @media screen and (max-width: 991px) {
-            font-size: 16px;
-            line-height: 20px;
+        @media screen and (max-width: 1300px) {
+            font-size: 18px;
+            line-height: 26px;
         }
 
         &:after {
@@ -159,6 +159,10 @@ ul {
             width: 8px;
             background-color: #85B2CA;
             border-radius: 8px;
+
+            @media screen and (max-width: 1500px) {
+                top: 9px;
+            }
 
             @media screen and (max-width: 767px) {
                 top: 7px;
