@@ -79,6 +79,19 @@ gulp.task('scripts', function() {
         .pipe(notify({ message: 'Scripts task complete' }));
 });
 
+gulp.task('scriptsPlay', function() {
+    return gulp.src([
+            sourceDir + '/video-play.js',
+        ])
+
+        //.pipe(browserify(components.scripts.options))
+        .pipe(concat('video.js'))
+        .pipe(uglify())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(notify({ message: 'Scripts task complete' }));
+});
+
 
 
 // Clean
@@ -88,7 +101,7 @@ gulp.task('clean', function() {
 
 // Default task
 gulp.task('default', function() {
-    gulp.start('styles', 'scripts');
+    gulp.start('styles', 'scripts', 'scriptsPlay');
 });
 
 gulp.task('server', function() {
@@ -104,6 +117,8 @@ gulp.task('watch', function() {
 
     // Watch .js files
     gulp.watch('js/**/*.js', ['scripts', browserSync.reload]);
+
+    gulp.watch('js/**/*.js', ['scriptsPlay', browserSync.reload]);
 
     //gulp.watch('assets/svg/**/*', ['svgSprite', browserSync.reload]);
     gulp.watch('template/*.html', ['rigger', browserSync.reload]);

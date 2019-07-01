@@ -145,16 +145,11 @@
                         <img src="images/screen-3.jpg" alt="">
                     </div>
                     <div class="idea-text col-5">
-                        <div class="heading-h1 heading-h1__inverse" data-aos-once="true" data-aos="fade-left"
-                            data-duration="900">Идея посёлка</div>
-                        <p data-aos="fade-left" data-aos-delay="50" data-aos-once="true" data-duration="500">Жилой
-                            комплекс оснащен новейшими технологиями безопасности и развитой инфраструктурой, окружен
-                            живописными лесами и водохранилищем; дома поселка находятся на территории нетронутой природы
-                            и кристально чистого воздуха, рядом - зона отдыха, собственный пляж и спортивные площадки.
-                        </p>
-                        <p data-aos="fade-left" data-aos-delay="100" data-duration="500" data-aos-once="true">Престижное
-                            направление, максимальная близость к городу и расположение в одном из самых красивых и
-                            экологически чистых мест пригорода - являются отличительными чертами жилого комплекса.</p>
+                        <div class="heading-h1 heading-h1__inverse aos-init aos-animate" data-aos-once="true" data-aos="fade-left" data-duration="900">Идея поселка</div>
+                        <p>Мечта вашей семьи – жизнь на природе, но со всеми преимуществами городской жизни?</p>
+<p>Тогда идеальное решение для вас – покупка участка в коттеджном поселке River Park!</p>
+<p>В окружении хвойных деревьев и вблизи реки Лопань царит уютная атмосфера активной жизни на природе.</p>
+<p>Здесь есть все для комфорта: развитая инфраструктура, благоустроенная территория с зонами для отдыха и спорта, система коммуникаций и гарантия безопасности. И все это – в километровой близости к Харькову!</p>
                     </div>
                 </div>
             </section>
@@ -2382,10 +2377,19 @@
                 </div>
                 <div class="outer-img container container-big">
                     <!-- <img src="images/animation.jpg" alt=""> -->
-                    <video id="video">
+                    <video id="video" class="d-lg">
                       <source src="images/anim.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                     </video>
+                    <div class="video-wrapper">
+                        <div class="video-play" id="js-mobile-play">
+                            <img src="images/play-button.svg" alt="">
+                        </div>
+                        <video id="video-mobile" class="d-xs">
+                          <source src="images/anim.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </section>
             <section class="map" id="anchor1">
@@ -2473,6 +2477,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/video.min.js"></script>
 </body>
 
 </html>
