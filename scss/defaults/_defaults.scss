@@ -29,8 +29,20 @@
         padding: 0 20px;
     }
 
+    @media screen and (min-width: 2000px) {
+        max-width: 2000px
+    }
+
+    @media screen and (min-width: 3000px) {
+        max-width: 2500px;
+    }
+
     &-big {
         max-width: 1800px;
+
+        @media screen and (min-width: 2000px) {
+            max-width: 100%;
+        }
     }
 }
 
@@ -74,6 +86,11 @@ body {
         font-size: 14px;
     }
 
+    @media screen and (min-width: 2000px) {
+        font-size: 40px;
+        padding: 35px 75px;
+    }
+
     &:focus {
         outline: none;
     }
@@ -92,6 +109,12 @@ body {
     line-height: 19px;
     text-align: center;
     color: #fff;
+
+    @media (min-width: 2000px) {
+        font-size: 30px;
+        height: auto;
+        padding: 45px 75px;
+    }
 
     &:hover,
     &:focus {
@@ -145,9 +168,38 @@ ul {
         font-size: 21px;
         line-height: 34px;
 
+        @media screen and (max-width: 1500px) {
+            line-height: 31px;
+        }
+
+        @media screen and (max-width: 1400px) {
+            line-height: 27px;
+            font-size: 17px;
+        }
+
         @media screen and (max-width: 1300px) {
             font-size: 18px;
             line-height: 26px;
+        }
+
+        @media screen and (max-width: 1100px) {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        @media screen and (min-width: 1900px) {
+            font-size: 24px;
+            line-height: 37px;
+        }
+
+        @media screen and (min-width: 2000px) {
+            font-size: 35px;
+            line-height: 57px;
+        }
+
+        @media screen and (min-width: 3000px) {
+            font-size: 45px;
+            line-height: 70px;
         }
 
         &:after {
@@ -166,6 +218,10 @@ ul {
 
             @media screen and (max-width: 767px) {
                 top: 7px;
+            }
+
+            @media screen and (min-width: 2000px) {
+                top: 23px;  
             }
         }
     }
