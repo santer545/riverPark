@@ -2404,17 +2404,18 @@
                                     099 755 77 77
                                     <a href="mailto:sale@riverpark.com">sale@riverpark.com</a>
                                 </div>
-                                <form action="" class="form">
+                                <form action="" class="form js_ajax">
                                     <div class="form-group">
                                         <label for="name" class="form-label">Ваше имя</label>
                                         <input type="text" id="name" name="name" class="form-control">
                                     </div>
                                     <div class="form-group">
                                         <label for="phone" class="form-label">Телефон</label>
-                                        <input type="text" id="phone" name="name" class="form-control js-phone">
+                                        <input type="tel" id="phone" name="name" class="form-control js-masked-phone">
+                                        <span class="error-text">Некорректный номер телефона</span>
                                     </div>
                                     <div class="form-group">
-                                        <button class="btn btn-callback" type="button" data-toggle="modal"
+                                        <button class="btn btn-callback js-callback" data-toggle="modal"
                                             data-target="#js-thanks">Перезвоните мне</button>
                                     </div>
                                 </form>
@@ -2446,14 +2447,14 @@
                     <h4 class="modal-title" id="myModalLabel">Оставьте заявку</h4>
                 </div>
                 <div class="modal-body">
-                    <form action="" class="form">
+                    <form action="" class="form js_validate js_ajax">
                         <div class="form-group">
                             <label for="name" class="form-label">Ваше имя</label>
                             <input type="text" id="name" name="name" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="phone" class="form-label">Телефон</label>
-                            <input type="text" id="phone" name="name" class="form-control js-phone" maxlength="14">
+                            <input type="text" id="phone_1" name="name" class="form-control js-masked-phone">
                         </div>
                         <div class="form-group">
                             <button class="btn btn-callback">Перезвоните мне</button>
@@ -2478,6 +2479,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/map.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/video.min.js"></script>
 </body>

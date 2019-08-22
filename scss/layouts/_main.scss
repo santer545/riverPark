@@ -462,6 +462,10 @@
     max-width: none;
     margin-left: -180px;
 
+    @media screen and (max-width: 1300px) {
+        margin-left: -120px;
+    }
+
     @media screen and (max-width: 1199px) {
         margin-left: -60px;
     }
@@ -3831,5 +3835,18 @@ corresponds to the arrow we want to display */
 .form-label {
     @media (min-width: 2000px) {
         font-size: 34px;
+    }
+}
+
+.error-text {
+    display: none;
+}
+
+.has-error {
+    .error-text {
+        display: block;
+        color: #ff0000;
+        padding: 5px 0;
+        font-size: 12px;
     }
 }

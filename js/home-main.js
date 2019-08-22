@@ -1,6 +1,6 @@
 $(function() {
     rangePrice('js-range-slider');
-    showMasks();
+    //showMasks();
     AOS.init({
         startEvent: 'scroll'
     });
@@ -22,9 +22,9 @@ function rangePrice(element) {
     });
 }
 
-function showMasks() {
-    $('.js-phone').mask('(000) 000 0000');
-}
+// function showMasks() {
+//     $('.js-phone').mask('(000) 000 0000');
+// }
 
 function preloaderHide() {
     setTimeout(function() {

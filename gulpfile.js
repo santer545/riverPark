@@ -63,10 +63,8 @@ gulp.task('scripts', function() {
     return gulp.src([
             sourceDir + '/jquery.2.2.1.js',
             sourceDir + '/jquery.mask.js',
-            sourceDir + '/validate.js',
             sourceDir + '/ion.rangeSlider.js',
             sourceDir + '/modal.js',
-            sourceDir + '/map.js',
             sourceDir + '/tooltipster.bundle.js',
             sourceDir + '/home-main.js'
         ])

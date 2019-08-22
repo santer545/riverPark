@@ -246,7 +246,9 @@ $(document).on("submit", '.js_ajax', function() {
 
     var _data = _form.serialize();
 
-    if ($(this).find('.js-masked-phone').val().length == 15) {
+    console.log($(this));
+
+    if ($(this).find('.js-masked-phone').val().length == 14) {
         alert("Прошел валидацию");
 
     } else {
@@ -334,12 +336,6 @@ $(document).on("submit", '.js_ajax', function() {
 
 
     return false;
-
-
-
-
-
-
 
 
 
