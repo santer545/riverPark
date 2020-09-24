@@ -20,7 +20,7 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps');
 
 // Styles
-gulp.task('styles', function() {
+gulp.task('styles', function () {
     return gulp.src('scss/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({ style: 'expanded' }))
@@ -34,7 +34,7 @@ gulp.task('styles', function() {
 });
 
 
-gulp.task('rigger', function() {
+gulp.task('rigger', function () {
     gulp.src('template/*.html')
         .pipe(rigger())
         .pipe(gulp.dest('dist/'));
@@ -44,7 +44,7 @@ gulp.task('rigger', function() {
 
 
 // Local server
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function () {
     browserSync.init({
         server: {
             baseDir: "./dist"
@@ -59,15 +59,16 @@ var sourceDir = rootDir + '/js'; // здесь хранятся все исхо�
 var destDir = rootDir + '/dist'; // здесь хранится все на выходе
 
 // Scripts
-gulp.task('scripts', function() {
+gulp.task('scripts', function () {
     return gulp.src([
-            sourceDir + '/jquery.2.2.1.js',
-            sourceDir + '/jquery.mask.js',
-            sourceDir + '/ion.rangeSlider.js',
-            sourceDir + '/modal.js',
-            sourceDir + '/tooltipster.bundle.js',
-            sourceDir + '/home-main.js'
-        ])
+        sourceDir + '/jquery.2.2.1.js',
+        sourceDir + '/jquery.mask.js',
+        sourceDir + '/ion.rangeSlider.js',
+        sourceDir + '/slick.min.js',
+        sourceDir + '/modal.js',
+        sourceDir + '/tooltipster.bundle.js',
+        sourceDir + '/home-main.js'
+    ])
 
         //.pipe(browserify(components.scripts.options))
         .pipe(concat('all.js'))
@@ -77,10 +78,24 @@ gulp.task('scripts', function() {
         .pipe(notify({ message: 'Scripts task complete' }));
 });
 
-gulp.task('scriptsPlay', function() {
+gulp.task('carousel-scripts', function () {
     return gulp.src([
-            sourceDir + '/video-play.js',
-        ])
+        sourceDir + '/slick.min.js',
+        sourceDir + '/carousel-settings.js',
+    ])
+
+        //.pipe(browserify(components.scripts.options))
+        .pipe(concat('carousel.js'))
+        .pipe(uglify())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(notify({ message: 'Scripts task complete' }));
+});
+
+gulp.task('scriptsPlay', function () {
+    return gulp.src([
+        sourceDir + '/video-play.js',
+    ])
 
         //.pipe(browserify(components.scripts.options))
         .pipe(concat('video.js'))
@@ -93,22 +108,22 @@ gulp.task('scriptsPlay', function() {
 
 
 // Clean
-gulp.task('clean', function() {
+gulp.task('clean', function () {
     return del(['dist/css', 'dist/js', 'dist/images']);
 });
 
 // Default task
-gulp.task('default', function() {
-    gulp.start('styles', 'scripts', 'scriptsPlay');
+gulp.task('default', function () {
+    gulp.start('styles', 'scripts', 'carousel-scripts', 'scriptsPlay');
 });
 
-gulp.task('server', function() {
+gulp.task('server', function () {
     gulp.start('default', 'watch', 'browser-sync', 'rigger');
 });
 
 
 // Watch
-gulp.task('watch', function() {
+gulp.task('watch', function () {
 
     // Watch .scss files
     gulp.watch('scss/**/*.scss', ['styles', browserSync.reload]);
